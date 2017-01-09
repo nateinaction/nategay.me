@@ -1,0 +1,22 @@
+{
+  "name": "nategay.me",
+  "version": "1.0.0",
+  "description": "Nate Gay's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nateinaction@github.com/nateinaction/nategay.me.git"
+  },
+  "author": "Nate Gay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nateinaction/nategay.me/issues"
+  },
+  "homepage": "https://github.com/nateinaction/nategay.me#readme",
+  "dependencies": {
+
+  }
+}

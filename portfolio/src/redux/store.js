@@ -1,18 +1,20 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
-import projects from './projectsReducer'
-import { entry, operation, total, displayTotal } from './calculatorReducers'
+import projects from '../projects/reducers'
+import certificates from '../certificates/reducers'
+import languages from '../languagesAndInterests/languages/reducers'
+import interests from '../languagesAndInterests/interests/reducers'
+//import { entry, operation, total, displayTotal } from './calculatorReducers'
 
 /*
  * Redux Combine Reducers
  */
 
 const portfolioApp = combineReducers({
+  certificates,
   projects,
-  entry,
-  operation,
-  total,
-  displayTotal
+  languages,
+  interests
 })
 
 /*

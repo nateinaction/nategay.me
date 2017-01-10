@@ -23,7 +23,6 @@ const Header = (props) => (
     <Col xs={12} className='header-buttons text-center'>
       <ButtonToolbar>
         <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/'>Github</Button>
-        <Button bsStyle='success' bsSize='large'>Resume</Button>
       </ButtonToolbar>
     </Col>
     </Row>

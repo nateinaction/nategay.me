@@ -2,10 +2,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #999;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h4 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
@@ -16,12 +16,36 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+h2 {
+  font-size: 4.0rem;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-family: 'Josefin Slab', serif;
+}
+
 h4 {
   margin: 0;
-  color: #eee;
   font-size: 3rem;
   font-weight: 300;
   font-family: 'Josefin Slab', serif;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.8rem;
+
+}
+
+.row {
+  margin: 0;
+}
+
+.section, .header, .footer, .certificates, .languages-and-interests, .projects {
+  padding: 2.5rem 0;
 }
 
 .name {
@@ -34,7 +58,6 @@ h4 {
 
 .header, .footer {
   background-color: #333;
-  padding: 25px 0;
   color: #eee;
 }
 
@@ -44,6 +67,36 @@ h4 {
 
 button, a .btn {
   text-transform: uppercase;
+}
+
+.certificates {
+  padding: 25px 0;
+  background-color: #98C6E4;
+}
+
+.progress {
+  height: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem
+}
+
+.progress-bar {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.languages-and-interests {
+  background-color: #333;
+  text-align: center;
+  color: #eee
+}
+
+.languages-and-interests img {
+  height: 10.5rem;
+}
+.languages-and-interests .vert-pad {
+  padding: 1.2rem 0;
 }
 
 .projects {

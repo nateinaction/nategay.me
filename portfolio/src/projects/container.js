@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Grid, Row, Col } from 'react-bootstrap'
-import Project from '../components/Project'
+import { Grid, Row } from 'react-bootstrap'
+import Project from './project'
 
 const Projects = (props) => (
   <Grid className='projects' fluid>

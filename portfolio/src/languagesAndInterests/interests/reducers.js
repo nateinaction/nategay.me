@@ -16,19 +16,19 @@ const allInterests = [
   },
   {
     image: sailingImage,
-    description: 'Playing with my pup!'
+    description: 'Sailing with my friends!'
   },
   {
     image: rocketImage,
-    description: 'Playing with my pup!'
+    description: 'Anything about NASA, SpaceX, CCDev, general spacey things, etc!'
   },
   {
     image: travelImage,
-    description: 'Playing with my pup!'
+    description: 'Traveling to somewhere new!'
   },
   {
     image: starTrekImage,
-    description: 'Nerding out on Star Trek'
+    description: 'Nerding out on Star Trek!'
   },
   {
     image: uxDesignImage,

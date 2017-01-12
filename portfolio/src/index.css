@@ -73,8 +73,8 @@ button, a .btn {
   background-color: #eee;
 }
 
-.simon-app {
-  container: 100%;
+.simon-app .container {
+  width: 100%;
 }
 
 .no-padding {

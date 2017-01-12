@@ -4,7 +4,7 @@ import { Grid, Row } from 'react-bootstrap'
 import Project from './project'
 
 const Projects = (props) => (
-  <Grid className='projects' fluid>
+  <Grid className='section projects' fluid>
     <Row>
       <h2>Recent Projects</h2>
   	  {props.projects.map((project, index) => (

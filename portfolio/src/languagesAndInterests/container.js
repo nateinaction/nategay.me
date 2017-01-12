@@ -5,7 +5,7 @@ import Languages from './languages/languages'
 import Interests from './interests/interests'
 
 const LanguagesAndInterests = (props) => (
-  <Grid className='languages-and-interests' fluid>
+  <Grid className='section languages-and-interests' fluid>
     <Row>
       <Languages
         languages={props.languages} />

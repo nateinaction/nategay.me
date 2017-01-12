@@ -59,8 +59,8 @@ const divideFromTotal = (entry, operation) => ({
 // async with thunk
 const appendToEntry = (input) => {
 	return (dispatch, getState) => {
-    const state = getState()
-    let entry = state.entry
+    const { calculator } = getState()
+    let entry = calculator.entry
     entry += input.toString()
 		entry = parseInt(entry, 10)
 
@@ -70,10 +70,9 @@ const appendToEntry = (input) => {
 
 const performOperation = (operation) => {
 	return (dispatch, getState) => {
-    const state = getState()
-    const entry = state.entry
-    const total = state.total
-    const previousOperation = state.operation
+    const { calculator } = getState()
+    const { entry, total } = calculator
+    const previousOperation = calculator.operation
 
     if (entry === 0) {
 			return dispatch(setOperation(operation))
@@ -82,23 +81,23 @@ const performOperation = (operation) => {
 			return dispatch(setTotal(entry, operation))
 		}
 		switch (previousOperation) {
-			case 'add': return dispatch(addToTotal(entry, operation))
-			case 'subtract': return dispatch(subtractFromTotal(entry, operation))
-			case 'multiply': return dispatch(multiplyWithTotal(entry, operation))
-			case 'divide': return dispatch(divideFromTotal(entry, operation))
-			default: return state;
+			case '+': return dispatch(addToTotal(entry, operation))
+			case '–': return dispatch(subtractFromTotal(entry, operation))
+			case 'x': return dispatch(multiplyWithTotal(entry, operation))
+			case '÷': return dispatch(divideFromTotal(entry, operation))
+			default: return calculator;
 		}
 	}
 }
 
 const showTotal = () => {
 	return (dispatch, getState) => {
-		const state = getState()
-		dispatch(performOperation(state.operation))
+		const { calculator } = getState()
+		dispatch(performOperation(calculator.operation))
   }
 }
 
-const calculatorAction = {
+const actions = {
   allClear,
   clearEntry,
   setEntry,
@@ -113,4 +112,4 @@ const calculatorAction = {
   showTotal
 }
 
-export default calculatorAction
+export default actions

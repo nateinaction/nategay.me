@@ -3,7 +3,7 @@ import { Grid, Row, Col, Image, ButtonToolbar, Button } from 'react-bootstrap'
 import profileImage from '../../public/images/profile-photo-512.png'
 
 const Header = (props) => (
-  <Grid className='header' fluid>
+  <Grid className='section header' fluid>
     <Row>
     <Col xs={12} className='text-center'>
       <Image src={profileImage} className='profile-image' circle />

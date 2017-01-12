@@ -44,7 +44,7 @@ p {
   margin: 0;
 }
 
-.section, .header, .footer, .certificates, .languages-and-interests, .projects {
+.section {
   padding: 2.5rem 0;
 }
 
@@ -69,8 +69,40 @@ button, a .btn {
   text-transform: uppercase;
 }
 
+.tags {
+  display: inline-block;
+}
+
+.calculator {
+  background-color: #eee;
+}
+
+.calculator-info .btn {
+  margin: 15px 0
+}
+
+.calculator-app .btn {
+	font-size: 18px;
+}
+
+.calculator-app .btn:focus{
+  outline: none;
+}
+
+.calculator-buttons {
+	padding: 0;
+}
+
+@media (max-width: 480px) {
+	.calculator-column {
+		padding: 0 5px;
+	}
+	.btn-block+.btn-block {
+    margin-top: 15px;
+	}
+}
+
 .certificates {
-  padding: 25px 0;
   background-color: #98C6E4;
 }
 
@@ -106,7 +138,6 @@ button, a .btn {
 
 .label {
   margin: 0 2px;
-  font-size: 11px;
 }
 
 .btn-toolbar .btn {

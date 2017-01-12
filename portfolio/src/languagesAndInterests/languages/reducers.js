@@ -5,17 +5,17 @@
 const allLangsAndLibs = [
   {
     title: 'Proficient',
-    contents: ['JavaScript', 'React', 'Redux', 'Firebase', 'Chrome API', 'jQuery'],
+    contents: ['JavaScript', 'React', 'Redux', 'Firebase', 'jQuery'],
     style: 'info'
   },
   {
     title: 'Learning',
-    contents: ['D3', 'Relay/GraphQL'],
+    contents: ['D3', 'Relay/GraphQL', 'Node.js'],
     style: 'success'
   },
   {
     title: 'Previous Experience',
-    contents: ['PHP', 'WordPress API'],
+    contents: ['PHP', 'WordPress API', 'Chrome API'],
     style: 'warning'
   }
 ]

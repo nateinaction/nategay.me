@@ -7,14 +7,14 @@ import './index.css';
 import ProjectsContainer from './projects/container'
 import CertificatesContainer from './certificates/container'
 import LanguagesAndInterestsContainer from './languagesAndInterests/container'
-//import CalculatorDisplayContainer from './containers/CalculatorDisplayContainer'
-//import CalculatorButtonsContainer from './containers/CalculatorButtonsContainer'
+import CalculatorContainer from './calculator/container'
 import Header from './header/index'
 import Footer from './footer/index'
 
 const App = (props) => (
   <div className="App">
     <Header />
+    <CalculatorContainer />
     <CertificatesContainer />
     <LanguagesAndInterestsContainer />
     <ProjectsContainer />

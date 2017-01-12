@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Cert from './cert'
 
 const Certificates = (props) => (
-  <Grid className='certificates' fluid>
+  <Grid className='section certificates' fluid>
     <Row>
       <Col xs={10} xsOffset={1}>
         <h2>{'Certificates'}</h2>

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #333;
+}
+
+.row {
+  height: 50vh;
+}
+
+.col-xs-6 {
+    height: 100%;
+    padding: 0;
+}
+
+.game-button {
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.active-button {
+  opacity: 1;
+}
+
+.game-button-0 {
+  @extend .game-button;
+  background-color: cornflowerblue;
+}
+
+.game-button-1 {
+  @extend .game-button;
+  background-color: yellow;
+}
+
+.game-button-2 {
+  @extend .game-button;
+  background-color: red;
+}
+
+.game-button-3 {
+  @extend .game-button;
+  background-color: chartreuse;
+}
+
+.btn {
+	font-size: 18px;
+}
+
+.btn:focus{
+  outline: none;
+}

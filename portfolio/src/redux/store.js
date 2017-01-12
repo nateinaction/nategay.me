@@ -14,6 +14,9 @@ import interests from '../languagesAndInterests/interests/reducers'
 // calculator
 import calculator from '../calculator/reducers/index'
 
+// simon
+import simon from '../simon/reducers/index'
+
 /*
  * Redux Combine Reducers
  */
@@ -23,7 +26,8 @@ const portfolioApp = combineReducers({
   projects,
   languages,
   interests,
-  calculator
+  calculator,
+  simon
 })
 
 /*

@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import { Col } from 'react-bootstrap'
-import CalculatorDisplay from './CalculatorDisplay'
-import CalculatorButton from './CalculatorButton'
+import CalculatorDisplay from './Display'
+import CalculatorButton from './Button'
 
 const buttonGroups = [
   ['AC', 7, 4, 2, 0],

@@ -2,8 +2,8 @@ import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row } from 'react-bootstrap'
 
-import CalculatorInfo from './components/CalculatorInfo'
-import CalculatorApp from './components/CalculatorApp'
+import CalculatorInfo from './components/Info'
+import CalculatorApp from './components/App'
 import actions from './actions'
 
 const Calculator = (props) => (

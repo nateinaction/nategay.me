@@ -45,7 +45,7 @@ p {
 }
 
 .section {
-  padding: 2.5rem 0;
+  padding: 4.5rem 0;
 }
 
 .name {
@@ -93,7 +93,14 @@ button, a .btn {
 	padding: 0;
 }
 
+.calculator-display {
+  padding: 0 30px;
+}
+
 @media (max-width: 480px) {
+  .calculator-display {
+    padding: 0 15px;
+  }
 	.calculator-column {
 		padding: 0 5px;
 	}

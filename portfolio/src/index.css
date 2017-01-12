@@ -65,10 +65,6 @@ p {
   padding-top: 25px;
 }
 
-button, a .btn {
-  text-transform: uppercase;
-}
-
 .simon {
   background-color: #eee;
 }
@@ -133,7 +129,7 @@ button, a .btn {
 }
 
 .btn:focus{
-  outline: none;
+  outline: none !important;
 }
 
 .calculator-buttons {

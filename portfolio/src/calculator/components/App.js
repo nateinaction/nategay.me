@@ -4,7 +4,7 @@ import CalculatorDisplay from './Display'
 import CalculatorButton from './Button'
 
 const buttonGroups = [
-  ['AC', 7, 4, 2, 0],
+  ['AC', 7, 4, 1, 0],
   ['CE', 8, 5, 2],
   ['=', 9, 6, 3],
   ['+', '–', 'x', '÷']

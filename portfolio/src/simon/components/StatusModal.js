@@ -11,7 +11,7 @@ const StatusModal = (props) => {
 	}
 	if (props.turn === 'win') {
 		title = 'Congratulations!'
-		message = 'Wow! Who knew you had such a great memory? Want to try again?'
+		message = 'Wow, you have completed level 20! Who knew you had such a great memory?'
 		showModal = true
 	}
 	return (
@@ -20,7 +20,7 @@ const StatusModal = (props) => {
 	      <Modal.Title>{title}</Modal.Title>
 	    </Modal.Header>
 	    <Modal.Body>
-	      {message}
+	      <p>{message}</p>
 	    </Modal.Body>
 			<Modal.Footer>
 				<CloseButton onHideModal={props.handleHideModal} />

@@ -4,6 +4,7 @@ import { Grid, Row } from 'react-bootstrap'
 
 import SimonInfo from './components/Info'
 import SimonApp from './components/App'
+import StatusModal from './components/StatusModal'
 import actions from './actions'
 
 /*
@@ -23,6 +24,9 @@ const Simon = (props) => (
 			handlePlayClick={props.handlePlayClick}
 			handleStrictClick={props.handleStrictClick}
 			handleResetClick={props.handleResetClick} />
+		<StatusModal
+			turn={props.turn}
+			handleHideModal={props.handleResetClick} />
 		</Row>
 	</Grid>
 )

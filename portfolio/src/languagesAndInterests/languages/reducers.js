@@ -10,7 +10,7 @@ const allLangsAndLibs = [
   },
   {
     title: 'Learning',
-    contents: ['D3', 'Relay/GraphQL', 'Node.js'],
+    contents: ['D3', 'Node.js', 'MongoDB'],
     style: 'success'
   },
   {

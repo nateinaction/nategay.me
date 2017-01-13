@@ -55,12 +55,12 @@ const chooseIntervalHelper = (level) => {
 		return 400
 	}
 	if (level > 8) {
-		return 600
+		return 550
 	}
 	if (level > 4) {
-		return 800
+		return 750
 	}
-	return 1000
+	return 900
 }
 
 /*

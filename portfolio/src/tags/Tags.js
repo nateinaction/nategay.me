@@ -5,7 +5,9 @@ const tagColor = {
   'react': 'danger',
   'redux': 'warning',
   'bootstrap': 'info',
-  'api': 'primary'
+  'api': 'primary',
+  'node.js': 'success',
+  'express': 'info'
 }
 
 const Tags = (props) => (

@@ -17,6 +17,9 @@ import calculator from '../calculator/reducers/index'
 // simon
 import simon from '../simon/reducers/index'
 
+// weather
+import weather from '../weather/reducers/index'
+
 /*
  * Redux Combine Reducers
  */
@@ -27,7 +30,8 @@ const portfolioApp = combineReducers({
   languages,
   interests,
   calculator,
-  simon
+  simon,
+  weather
 })
 
 /*

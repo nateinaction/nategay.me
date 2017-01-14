@@ -10,16 +10,17 @@ import CertificatesContainer from './certificates/container'
 import LanguagesAndInterestsContainer from './languagesAndInterests/container'
 import CalculatorContainer from './calculator/container'
 import SimonContainer from './simon/container'
+import WeatherContainer from './weather/container'
 import Footer from './footer/index'
 
 const App = (props) => (
   <div className="App">
     <Header />
-    <SimonContainer />
+    <WeatherContainer />
     <LanguagesAndInterestsContainer />
-    <CalculatorContainer />
+    <SimonContainer />
     <CertificatesContainer />
-    <ProjectsContainer />
+    <CalculatorContainer />
     <Footer />
   </div>
 )

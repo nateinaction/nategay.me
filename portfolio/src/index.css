@@ -65,6 +65,81 @@ p {
   padding-top: 25px;
 }
 
+.weather {
+  background-color: #eee;
+}
+
+.weather h1, .weather h3 {
+	text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.weather h1 {
+  font-size: 5rem;
+  color: #333;
+}
+
+.weather-icon {
+  font-size: 100px;
+  text-align: center;
+}
+
+.temp {
+  font-weight: bold;
+  color: #286090;
+}
+
+.alert {
+  padding: 10px;
+  margin: 10px;
+}
+
+.glyph-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.weather-info .btn {
+  margin: 15px 0
+}
+
 .simon {
   background-color: #eee;
 }

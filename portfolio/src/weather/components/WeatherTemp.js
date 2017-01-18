@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 
 const WeatherTemp = (props) => (
-	<span className='temp' onClick={() => props.onScaleClick()}>{props.temp[props.scale]}°{props.scale}</span>
+	<h3 className='temp' onClick={() => props.onScaleClick()}>{props.temp[props.scale]}°{props.scale}</h3>
 )
 WeatherTemp.propTypes =  {
 	temp: PropTypes.object,

@@ -1,20 +1,22 @@
 import React, { PropTypes } from 'react'
+import { Col } from 'react-bootstrap'
 
 import WeatherTemp from './WeatherTemp'
 import WeatherCondition from './WeatherCondition'
 
 const WeatherTempAndCondition = (props) => (
-	<h3>
-		{'It is '}
+	<div>
+	<Col xs={6} className='temp-col'>
 		<WeatherTemp
 			temp={props.weather.temp}
 			scale={props.scale}
 			onScaleClick={props.handleScaleClick} />
-		{' and '}
+	</Col>
+	<Col xs={6} className='condition-col'>
 		<WeatherCondition
 			condition={props.weather.condition} />
-		{' in'}
-	</h3>
+	</Col>
+	</div>
 )
 WeatherTempAndCondition.propTypes =  {
 	weather: PropTypes.object.isRequired,

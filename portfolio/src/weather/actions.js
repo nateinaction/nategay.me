@@ -32,7 +32,7 @@ const fetchWeather = (lat, lon) => {
 		lat = 30.223221
   	lon = -97.740359
 	}
-	let url = 'http://infinite-gorge-78718.herokuapp.com/weather'
+	let url = 'https://api.nategay.me/weather'
 	let config = {
 		params: {
 			lat,

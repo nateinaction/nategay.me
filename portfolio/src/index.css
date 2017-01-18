@@ -90,6 +90,22 @@ p {
   color: #286090;
 }
 
+.temp-col {
+  border-right: 1px solid #333;
+}
+
+.temp-col h3 {
+  text-align: right;
+}
+
+.condition-col {
+  border-left: 1px solid #333;
+}
+
+.condition-col h3 {
+  text-align: left;
+}
+
 .alert {
   padding: 10px;
   margin: 10px;

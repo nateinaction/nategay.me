@@ -8,8 +8,7 @@ import projects from '../projects/reducers'
 import certificates from '../certificates/reducers'
 
 // languages and interests
-import languages from '../languagesAndInterests/languages/reducers'
-import interests from '../languagesAndInterests/interests/reducers'
+import languages from '../languages/reducers'
 
 // calculator
 import calculator from '../calculator/reducers/index'
@@ -28,7 +27,6 @@ const portfolioApp = combineReducers({
   certificates,
   projects,
   languages,
-  interests,
   calculator,
   simon,
   weather

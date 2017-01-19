@@ -20,6 +20,7 @@ h2 {
   font-size: 4.0rem;
   font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
 }
 
 h3 {
@@ -259,17 +260,18 @@ p {
   line-height: 3rem;
 }
 
-.languages-and-interests {
+.languages {
   background-color: #333;
   text-align: center;
   color: #eee
 }
 
-.languages-and-interests img {
-  height: 10.5rem;
-}
-.languages-and-interests .vert-pad {
-  padding: 1.2rem 0;
+.languages span {
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .projects {

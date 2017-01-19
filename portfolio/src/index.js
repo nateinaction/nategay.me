@@ -5,9 +5,8 @@ import store from './redux/store'
 import './index.css';
 
 import Header from './header/index'
-//import ProjectsContainer from './projects/container'
 import CertificatesContainer from './certificates/container'
-import LanguagesAndInterestsContainer from './languagesAndInterests/container'
+import LanguagesContainer from './languages/container'
 import CalculatorContainer from './calculator/container'
 import SimonContainer from './simon/container'
 import WeatherContainer from './weather/container'
@@ -19,7 +18,7 @@ const App = (props) => (
     <WeatherContainer />
     <SimonContainer />
     <CalculatorContainer />
-    <LanguagesAndInterestsContainer />
+    <LanguagesContainer />
     <CertificatesContainer />
 
     <Footer />

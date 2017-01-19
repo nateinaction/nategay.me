@@ -18,7 +18,7 @@ const Header = (props) => (
     </Row>
     <Row>
     <Col xs={10} xsOffset={1} md={12} mdOffset={0}>
-      <h4>{'Hi! I\'m Nate, a front-end developer and dog lover.'}</h4>
+      <h4>{'Hi! I\'m Nate, a front end developer and dog lover.'}</h4>
     </Col>
     </Row>
     <Row>

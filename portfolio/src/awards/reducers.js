@@ -5,7 +5,7 @@
 const defAwards = [
   {
     name: 'L.I. Felner Scholarship',
-    description: 'In 2015 I won the L.I. Felner Scholarship which paid $1,000 toward the expenses of my Study Abroad trip in Peru. During the 6 week trip I had the opportunity to explore 6 ancient Inca sites, visit Cusco and Nasca, and learn about Peruvian politics, culture, and cuisine in Lima.'
+    description: 'In 2015 I won the L.I. Felner Scholarship which paid $1,000 toward the expenses of a Study Abroad trip in Peru. During the 6 week trip I had the opportunity to explore 6 ancient Inca sites, visit Cusco and Nasca, and learn about Peruvian politics, culture, and cuisine in Lima.'
   },
   {
     name: 'Outstanding Service to the Spanish Program',

@@ -5,7 +5,7 @@ import Award from './components/Award'
 import AwardImage from './components/AwardImage'
 
 const Awards = (props) => (
-  <Grid className='section lignt-section awards' fluid>
+  <Grid className='section light-section awards' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Awards</h2>

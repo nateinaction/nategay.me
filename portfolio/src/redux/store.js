@@ -4,9 +4,6 @@ import thunk from 'redux-thunk'
 // projects
 import projects from '../projects/reducers'
 
-// certificates
-import certificates from '../certificates/reducers'
-
 // languages and interests
 import languages from '../languages/reducers'
 
@@ -30,7 +27,6 @@ import education from '../education/reducers'
  */
 
 const portfolioApp = combineReducers({
-  certificates,
   projects,
   languages,
   calculator,

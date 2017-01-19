@@ -21,9 +21,9 @@ const App = (props) => (
     <WeatherContainer />
     <SimonContainer />
     <CalculatorContainer />
-    <CertificatesContainer />
-    <AwardsContainer />
     <EducationContainer />
+    <AwardsContainer />
+    <CertificatesContainer />
     <Footer />
   </div>
 )

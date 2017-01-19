@@ -4,7 +4,7 @@
 
 const defEducation = [
   {
-    name: 'Bachelor of Arts in Spanish',
+    name: 'Bachelor of Arts in Spanish Literature',
     description: 'NC State University, December 2016 - 3.5 GPA'
   },
   {

@@ -1,42 +1,22 @@
-import React, { PropTypes } from 'react'
-import { connect } from 'react-redux'
+import React from 'react'
 import { Grid, Row, Col } from 'react-bootstrap'
-import './container.css'
 
-import Cert from './cert'
+import Item from './components/Item'
 
-const Certificates = (props) => (
+const CertificatesContainer = (props) => (
   <Grid className='section light-section certificates' fluid>
     <Row>
       <Col xs={10} xsOffset={1}>
-        <h2>{'Certificates'}</h2>
-      </Col>
-    </Row>
-    <Row>
-    	<Col xs={10} xsOffset={1}>
-        {props.certificates.map((cert, index) => (
-          <Cert
-            key={index}
-            name={cert.name}
-            image={cert.image}
-            imageAlt={cert.imageAlt}
-            progress={cert.progress}
-            verificationUrl={cert.verificationUrl}/>
-        ))}
+        <h2>{'Licenses & Certificates'}</h2>
+        <Item
+          title='Technician License, KK4PDM (FCC)'
+          href='http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3453318' />
+        <Item
+          title='Front End Development (Free Code Camp)'
+          href='https://www.freecodecamp.com/nateinaction/front-end-certification' />
     	</Col>
     </Row>
   </Grid>
 )
-Certificates.propTypes = {
-	certificates: PropTypes.array.isRequired
-}
-
-const mapStateToProps = (state) => ({
-	certificates: state.certificates
-})
-
-const CertificatesContainer = connect(
-	mapStateToProps
-)(Certificates)
 
 export default CertificatesContainer

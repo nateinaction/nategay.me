@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux'
 import { Grid, Row } from 'react-bootstrap'
+import './container.css'
 
 import WeatherInfo from './components/Info'
 import WeatherApp from './components/App'
@@ -12,7 +13,7 @@ class Weather extends Component {
 	}
 	render() {
 		return (
-			<Grid className="section weather" fluid>
+			<Grid className="section light-section weather" fluid>
 				<Row>
 					<WeatherInfo />
 					<WeatherApp

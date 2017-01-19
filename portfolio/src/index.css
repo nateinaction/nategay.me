@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #999;
+  background-color: #eee;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -49,245 +49,18 @@ p {
   padding: 4.5rem 0;
 }
 
-.name {
-  color: orange;
-}
-
-.profile-image {
-  height: 200px;
-}
-
-.header, .footer {
+.dark-section {
   background-color: #333;
   color: #eee;
 }
 
-.header-buttons {
-  padding-top: 25px;
-}
-
-.awards {
+.light-section {
   background-color: #eee;
-}
-
-.education {
-  background-color: #eee;
-}
-
-.weather {
-  background-color: #eee;
-}
-
-.weather h1, .weather h3 {
-	text-align: center;
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
-.weather h1 {
-  font-size: 5rem;
   color: #333;
 }
 
-.weather-icon {
-  font-size: 100px;
-  text-align: center;
-}
-
-.temp {
-  font-weight: bold;
-  color: #286090;
-}
-
-.temp-col {
-  border-right: 1px solid #333;
-}
-
-.temp-col h3 {
-  text-align: right;
-}
-
-.condition-col {
-  border-left: 1px solid #333;
-}
-
-.condition-col h3 {
-  text-align: left;
-}
-
-.alert {
-  padding: 10px;
-  margin: 10px;
-}
-
-.glyph-spin {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-
-.weather-info .btn {
-  margin: 15px 0
-}
-
-.simon {
-  background-color: #eee;
-}
-
-.simon-app .container {
-  width: 100%;
-}
-
-.no-padding {
-  padding: 0;
-}
-
-.simon-info .btn {
-  margin: 15px 0
-}
-
-.nav p {
-  margin: 0;
-}
-
-.game-button {
-  height: 12rem;
-  width: 100%;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.active-button {
-  opacity: 1;
-}
-
-.game-button-0 {
-  background-color: cornflowerblue;
-}
-
-.game-button-1 {
-  background-color: yellow;
-}
-
-.game-button-2 {
-  background-color: red;
-}
-
-.game-button-3 {
-  background-color: chartreuse;
-}
-
-.tags {
-  display: inline-block;
-}
-
-.calculator {
-  background-color: #eee;
-}
-
-.calculator-info .btn {
-  margin: 15px 0
-}
-
-.calculator-app .btn {
-	font-size: 18px;
-}
-
-.btn:focus{
-  outline: none !important;
-}
-
-.calculator-buttons {
-	padding: 0;
-}
-
-.calculator-display {
-  padding: 0 30px;
-}
-
-@media (max-width: 480px) {
-  .calculator-display {
-    padding: 0 15px;
-  }
-	.calculator-column {
-		padding: 0 5px;
-	}
-	.btn-block+.btn-block {
-    margin-top: 15px;
-	}
-}
-
-.certificates {
-  background-color: #98C6E4;
-}
-
-.progress {
-  height: 3rem;
-  margin-bottom: 2rem;
-  border-radius: 3rem
-}
-
-.progress-bar {
-  font-weight: 300;
-  font-size: 1.6rem;
-  line-height: 3rem;
-}
-
-.languages {
-  background-color: #eee;
-  text-align: center;
-}
-
-.languages span {
-  display: block;
-  padding: 1rem 0;
-  text-align: center;
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-
-.projects {
-  background-color: #eee;
-  text-align: center;
-}
-
-.label {
-  margin: 0 2px;
+.btn-lg {
+  margin: 1.5rem 0
 }
 
 .btn-toolbar .btn {

@@ -1,13 +1,14 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row } from 'react-bootstrap'
+import './container.css'
 
 import CalculatorInfo from './components/Info'
 import CalculatorApp from './components/App'
 import actions from './actions'
 
 const Calculator = (props) => (
-	<Grid className='section calculator' fluid>
+	<Grid className='section light-section calculator' fluid>
 		<Row>
 			<CalculatorInfo />
 			<CalculatorApp

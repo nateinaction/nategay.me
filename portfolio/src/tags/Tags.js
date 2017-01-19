@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import { Label } from 'react-bootstrap'
+import './tags.css'
 
 const tagColor = {
   'react': 'danger',

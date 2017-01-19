@@ -1,11 +1,13 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
+import './container.css'
+
 import Lang from './components/Lang'
 import actions from './actions'
 
 const Languages = (props) => (
-  <Grid className='section languages' fluid>
+  <Grid className='section light-section languages' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1} className='languages'>
         <h2>{'Languages, Libraries & Tools'}</h2>

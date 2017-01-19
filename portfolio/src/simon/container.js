@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row } from 'react-bootstrap'
+import './container.css'
 
 import SimonInfo from './components/Info'
 import SimonApp from './components/App'
@@ -12,7 +13,7 @@ import actions from './actions'
  */
 
 const Simon = (props) => (
-	<Grid className='section simon' fluid>
+	<Grid className='section light-section simon' fluid>
 		<Row>
 		<SimonInfo />
 		<SimonApp

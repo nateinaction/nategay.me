@@ -6,13 +6,13 @@ import WeatherCondition from './WeatherCondition'
 
 const WeatherTempAndCondition = (props) => (
 	<div>
-	<Col xs={6} className='temp-col'>
+	<Col xs={12} className='temp-col'>
 		<WeatherTemp
 			temp={props.weather.temp}
 			scale={props.scale}
 			onScaleClick={props.handleScaleClick} />
 	</Col>
-	<Col xs={6} className='condition-col'>
+	<Col xs={12} className='condition-col'>
 		<WeatherCondition
 			condition={props.weather.condition} />
 	</Col>

@@ -1,10 +1,12 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
+import './container.css'
+
 import Cert from './cert'
 
 const Certificates = (props) => (
-  <Grid className='section certificates' fluid>
+  <Grid className='section light-section certificates' fluid>
     <Row>
       <Col xs={10} xsOffset={1}>
         <h2>{'Certificates'}</h2>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Grid, Row, Col, Image, ButtonToolbar, Button } from 'react-bootstrap'
+import './index.css'
 import profileImage from '../../public/images/profile-photo-512.png'
 import resume from '../../public/docs/resume.pdf'
 
 const Header = (props) => (
-  <Grid className='section header' fluid>
+  <Grid className='section dark-section header' fluid>
     <Row>
     <Col xs={12} className='text-center'>
       <Image src={profileImage} className='profile-image' circle />

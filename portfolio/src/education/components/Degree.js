@@ -1,19 +1,19 @@
 import React, { PropTypes } from 'react'
 import { Col, ListGroup, ListGroupItem } from 'react-bootstrap'
 
-const Award = (props) => (
-  <Col xs={12} md={6} className={'award'}>
+const Degree = (props) => (
+  <Col xs={12} md={6} className={'degree'}>
     <ListGroup>
       <ListGroupItem>
         <h3>{props.name}</h3>
-        <p>{props.description}</p>
+        <p className={'text-center'}>{props.description}</p>
       </ListGroupItem>
     </ListGroup>
 	</Col>
 )
-Award.propTypes = {
+Degree.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired
 }
 
-export default Award
+export default Degree

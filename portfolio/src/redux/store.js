@@ -22,6 +22,9 @@ import weather from '../weather/reducers/index'
 // awards
 import awards from '../awards/reducers'
 
+// education
+import education from '../education/reducers'
+
 /*
  * Redux Combine Reducers
  */
@@ -33,7 +36,8 @@ const portfolioApp = combineReducers({
   calculator,
   simon,
   weather,
-  awards
+  awards,
+  education
 })
 
 /*

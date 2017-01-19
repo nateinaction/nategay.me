@@ -19,6 +19,9 @@ import simon from '../simon/reducers/index'
 // weather
 import weather from '../weather/reducers/index'
 
+// awards
+import awards from '../awards/reducers'
+
 /*
  * Redux Combine Reducers
  */
@@ -29,7 +32,8 @@ const portfolioApp = combineReducers({
   languages,
   calculator,
   simon,
-  weather
+  weather,
+  awards
 })
 
 /*

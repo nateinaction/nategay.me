@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Row, Col, ButtonGroup, Button } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 const Footer = (props) => (
   <Grid className='section footer' fluid>

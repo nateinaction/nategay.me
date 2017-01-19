@@ -66,6 +66,18 @@ p {
   padding-top: 25px;
 }
 
+.awards {
+  background-color: #eee;
+}
+
+.awards .thumbnail {
+  margin-top: 2rem;
+}
+
+.awards .award {
+
+}
+
 .weather {
   background-color: #eee;
 }
@@ -261,9 +273,8 @@ p {
 }
 
 .languages {
-  background-color: #333;
+  background-color: #eee;
   text-align: center;
-  color: #eee
 }
 
 .languages span {

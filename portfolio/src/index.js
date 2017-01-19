@@ -17,10 +17,11 @@ const App = (props) => (
   <div className="App">
     <Header />
     <WeatherContainer />
-    <LanguagesAndInterestsContainer />
     <SimonContainer />
-    <CertificatesContainer />
     <CalculatorContainer />
+    <LanguagesAndInterestsContainer />
+    <CertificatesContainer />
+
     <Footer />
   </div>
 )

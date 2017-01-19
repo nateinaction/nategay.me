@@ -23,7 +23,7 @@ const allCertificates = [
   },
   {
     name: 'Back End Develpment',
-    progress: 10,
+    progress: 30,
     image: backEndCertImage,
     imageAlt: 'Coming soon',
     verificationUrl: '#'

@@ -12,6 +12,7 @@ import SimonContainer from './simon/container'
 import WeatherContainer from './weather/container'
 import AwardsContainer from './awards/container'
 import EducationContainer from './education/container'
+import LeadershipContainer from './leadership/container'
 import Footer from './footer/index'
 
 const App = (props) => (
@@ -21,6 +22,7 @@ const App = (props) => (
     <WeatherContainer />
     <SimonContainer />
     <CalculatorContainer />
+    <LeadershipContainer />
     <EducationContainer />
     <AwardsContainer />
     <CertificatesContainer />

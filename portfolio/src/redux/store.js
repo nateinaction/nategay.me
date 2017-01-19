@@ -22,6 +22,9 @@ import awards from '../awards/reducers'
 // education
 import education from '../education/reducers'
 
+// leadership
+import leadership from '../leadership/reducers'
+
 /*
  * Redux Combine Reducers
  */
@@ -33,7 +36,8 @@ const portfolioApp = combineReducers({
   simon,
   weather,
   awards,
-  education
+  education,
+  leadership
 })
 
 /*

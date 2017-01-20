@@ -66,3 +66,15 @@ p {
 .btn-toolbar .btn {
   float: none;
 }
+
+.btn {
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
+  transform: scale(1.1);
+}
+
+.btn-toolbar>.btn, .btn-toolbar>.btn-group, .btn-toolbar>.input-group {
+    margin-left: 1rem;
+}

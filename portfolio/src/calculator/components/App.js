@@ -12,7 +12,7 @@ const buttonGroups = [
 
 const CalculatorApp = (props) => (
   <Col className='calculator-app' xs={12} md={5}>
-  	<CalculatorDisplay
+    <CalculatorDisplay
       entry={props.entry}
       total={props.total}
       displayTotal={props.displayTotal} />

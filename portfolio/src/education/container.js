@@ -14,7 +14,10 @@ const Education = (props) => (
   	    <Degree
   	      key={index}
   	      name={degree.name}
-          description={degree.description} />
+          university={degree.university}
+          date={degree.date}
+          honors={degree.honors}
+          href={degree.href} />
     	  ))}
       </Col>
     </Row>

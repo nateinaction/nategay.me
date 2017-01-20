@@ -31,38 +31,6 @@ const allProjects = [
     tags: ['react', 'redux', 'bootstrap', 'api'],
     github: 'https://github.com/nateinaction/TwitchTV-Status',
     demo: 'https://codepen.io/nateinaction/full/egNvJN/'
-  },
-  {
-    name: 'Simon Game',
-    description: 'It\'s only four colors, can you memorize the pattern?',
-    image: simonImage,
-    tags: ['react', 'redux', 'bootstrap'],
-    github: 'https://github.com/nateinaction/Simon-Game',
-    demo: 'https://codepen.io/nateinaction/full/EZxerR/'
-  },
-  {
-    name: 'Pomodoro Clock',
-    description: 'Track your productivity with this Pomodoro Clock.',
-    image: pomodoroImage,
-    tags: ['react', 'redux', 'bootstrap'],
-    github: 'https://github.com/nateinaction/Pomodoro-Clock',
-    demo: 'https://codepen.io/nateinaction/full/rWPXmO/'
-  },
-  {
-    name: 'Local Weather',
-    description: 'View your local weather.',
-    image: weatherImage,
-    tags: ['react', 'redux', 'bootstrap', 'api'],
-    github: 'https://github.com/nateinaction/Local-Weather',
-    demo: 'https://codepen.io/nateinaction/full/MyZWRN/'
-  },
-  {
-    name: 'Tic Tac Toe',
-    description: 'Play tic tac toe against my AI. Currently working to implement minimax algorithm.',
-    image: ticTacToeImage,
-    tags: ['react', 'redux', 'bootstrap'],
-    github: 'https://github.com/nateinaction/hashtag',
-    demo: 'https://codepen.io/nateinaction/full/xReeWw/'
   }
 ]
 

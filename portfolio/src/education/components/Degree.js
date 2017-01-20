@@ -1,19 +1,47 @@
 import React, { PropTypes } from 'react'
-import { Col, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Col, ListGroup, ListGroupItem, Button } from 'react-bootstrap'
+
+const VerifyButton = (props) => {
+  if (props.href) {
+    return (
+      <Button
+        href={props.href}
+        bsStyle='primary'
+        bsSize='large'>
+        Click to Verify
+      </Button>
+    )
+  }
+  return null
+}
+
+const Honors = (props) => {
+  if (props.honors) {
+    return (
+      <p><strong>{'Honors: '}</strong>{props.honors}</p>
+    )
+  }
+  return null
+}
 
 const Degree = (props) => (
   <Col xs={12} md={6} className={'degree'}>
     <ListGroup>
-      <ListGroupItem>
+      <ListGroupItem className={'text-center'}>
         <h3>{props.name}</h3>
-        <p className={'text-center'}>{props.description}</p>
+        <p><strong>{props.university + ', '}</strong>{props.date}</p>
+        <Honors honors={props.honors} />
+        <VerifyButton href={props.href} />
       </ListGroupItem>
     </ListGroup>
 	</Col>
 )
 Degree.propTypes = {
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  university: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  honors: PropTypes.string,
+  href: PropTypes.string
 }
 
 export default Degree

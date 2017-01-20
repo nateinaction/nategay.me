@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import { Col, Thumbnail, ButtonToolbar, Button } from 'react-bootstrap'
-import Tags from './tags'
+import Tags from '../tags/Tags'
 
 const Project = (props) => (
   <Col xs={12} md={4}>

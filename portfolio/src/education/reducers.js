@@ -1,3 +1,6 @@
+import baPoliticalScience from '../../public/docs/ba-political-science.pdf'
+import baSpanishLiterature from '../../public/docs/ba-spanish-literature.pdf'
+
 /*
  * Redux Default State
  */
@@ -5,15 +8,17 @@
 const defEducation = [
   {
     name: 'Bachelor of Arts in Spanish Literature',
-    description: 'NC State University, December 2016 - 3.5 GPA'
+    university: 'NC State University',
+    date: 'December 2016',
+    honors: 'Cum Laude - 3.5 GPA',
+    href: baSpanishLiterature
   },
   {
     name: 'Bachelor of Arts in Political Science',
-    description: 'NC State University, May 2016 - 3.6 GPA'
-  },
-  {
-    name: 'Associate of Arts in General Studies',
-    description: 'Northern Virginia Community College, 2010'
+    university: 'NC State University',
+    date: 'December 2016',
+    honors: 'Cum Laude - 3.6 GPA',
+    href: baPoliticalScience
   }
 ]
 

@@ -28,6 +28,9 @@ import leadership from '../leadership/reducers'
 // work
 import work from '../work/reducers'
 
+// intercultural
+import intercultural from '../intercultural/reducers'
+
 /*
  * Redux Combine Reducers
  */
@@ -41,7 +44,8 @@ const portfolioApp = combineReducers({
   awards,
   education,
   leadership,
-  work
+  work,
+  intercultural
 })
 
 /*

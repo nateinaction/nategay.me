@@ -1,7 +1,7 @@
 {
   "name": "nategay.me",
   "version": "1.0.0",
-  "homepage": "https://nateinacation.github.io/nategay.me",
+  "homepage": "https://nategay.me",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.8.4",

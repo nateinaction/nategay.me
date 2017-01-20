@@ -1,22 +1,31 @@
 {
   "name": "nategay.me",
   "version": "1.0.0",
-  "description": "Nate Gay's Portfolio",
-  "main": "index.js",
+  "homepage": "https://nateinacation.github.io/nategay.me",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "axios": "^0.15.3",
+    "howler": "^2.0.2",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://nateinaction@github.com/nateinaction/nategay.me.git"
-  },
-  "author": "Nate Gay",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/nateinaction/nategay.me/issues"
-  },
-  "homepage": "https://github.com/nateinaction/nategay.me#readme",
-  "dependencies": {
-
   }
 }

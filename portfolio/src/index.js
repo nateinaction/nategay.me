@@ -5,6 +5,7 @@ import store from './redux/store'
 import './index.css';
 
 import Header from './header/index'
+import ProjectsContainer from './projects/container'
 import CertificatesContainer from './certificates/container'
 import LanguagesContainer from './languages/container'
 import CalculatorContainer from './calculator/container'
@@ -20,6 +21,7 @@ const App = (props) => (
   <div className="App">
     <Header />
     <LanguagesContainer />
+    <ProjectsContainer />
     <WeatherContainer />
     <SimonContainer />
     <CalculatorContainer />

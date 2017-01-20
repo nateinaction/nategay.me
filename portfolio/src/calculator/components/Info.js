@@ -10,7 +10,7 @@ const CalculatorInfo = (props) => (
       <p>
         <strong>{'Tags: '}</strong>
         <Tags
-          tags={['react', 'redux', 'bootstrap']} />
+          tags={['React', 'Redux', 'Bootstrap']} />
       </p>
       <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/Calculator'>
         View this project on Github

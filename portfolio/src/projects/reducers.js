@@ -1,36 +1,26 @@
-import simonImage from '../../public/images/simon-game.png'
-import calculatorImage from '../../public/images/calculator.png'
-import pomodoroImage from '../../public/images/pomodoro-clock.png'
-import weatherImage from '../../public/images/local-weather.png'
-import twitchImage from '../../public/images/twitchtv-status.png'
-import ticTacToeImage from '../../public/images/tic-tac-toe.png'
-
-/*
- * Redux Action Creators
- */
-
-// nothing here yet
+import wpMorphextImage from '../../public/images/wp-morphext.svg'
+import superCAImage from '../../public/images/super-ca-mobile.jpg'
 
 /*
  * Redux Default State
  */
 
-const allProjects = [
+const defProjects = [
   {
-    name: 'Calculator',
-    description: 'You should probably be doing these calculations in your head...',
-    image: calculatorImage,
-    tags: ['react', 'redux', 'bootstrap'],
-    github: 'https://github.com/nateinaction/Calculator',
-    demo: 'https://codepen.io/nateinaction/full/vyQoVP/'
+    name: 'WP-Morphext',
+    description: 'Contributing to open source with a text animation plugin for WordPress.',
+    image: wpMorphextImage,
+    tags: ['PHP', 'WordPress API'],
+    github: 'https://github.com/nateinaction/wp-morphext',
+    demo: 'https://worldpeace.io/project/wp-morphext/'
   },
   {
-    name: 'TwitchTV Status',
-    description: 'Check the status of your favorite streamers on Twitch.',
-    image: twitchImage,
-    tags: ['react', 'redux', 'bootstrap', 'api'],
-    github: 'https://github.com/nateinaction/TwitchTV-Status',
-    demo: 'https://codepen.io/nateinaction/full/egNvJN/'
+    name: 'Super CA',
+    description: 'Streamlined package delivery at NC State’s University Housing with a mobile first package tracking system.',
+    image: superCAImage,
+    tags: ['Chrome API', 'Firebase', 'jQuery'],
+    github: 'https://github.com/nateinaction/Super-CA',
+    demo: 'https://super-ca.firebaseapp.com/'
   }
 ]
 
@@ -38,7 +28,7 @@ const allProjects = [
  * Redux Reducer
  */
 
-const projects = (state = allProjects, action) => {
+const projects = (state = defProjects, action) => {
   switch(action.type) {
     default:
       return state

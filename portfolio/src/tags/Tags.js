@@ -3,12 +3,17 @@ import { Label } from 'react-bootstrap'
 import './tags.css'
 
 const tagColor = {
-  'react': 'danger',
-  'redux': 'warning',
-  'bootstrap': 'info',
-  'api': 'primary',
-  'node.js': 'success',
-  'express': 'info'
+  'React': 'danger',
+  'Redux': 'warning',
+  'Bootstrap': 'info',
+  'Wunderground API': 'primary',
+  'Node.js': 'success',
+  'Express': 'info',
+  'PHP': 'warning',
+  'WordPress API': 'info',
+  'Chrome API': 'success',
+  'Firebase': 'danger',
+  'jQuery': 'primary'
 }
 
 const Tags = (props) => (

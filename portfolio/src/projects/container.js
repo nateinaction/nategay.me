@@ -1,22 +1,24 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Grid, Row } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 import Project from './project'
 
 const Projects = (props) => (
   <Grid className='section projects' fluid>
     <Row>
-      <h2>Recent Projects</h2>
-  	  {props.projects.map((project, index) => (
-  	    <Project
-  	      key={index}
-  	      name={project.name}
-          description={project.description}
-          image={project.image}
-          tags={project.tags}
-          github={project.github}
-          demo={project.demo} />
-    	  ))}
+      <Col xs={12} md={10} mdOffset={1}>
+        <h2>Recent Projects</h2>
+    	  {props.projects.map((project, index) => (
+    	    <Project
+    	      key={index}
+    	      name={project.name}
+            description={project.description}
+            image={project.image}
+            tags={project.tags}
+            github={project.github}
+            demo={project.demo} />
+      	  ))}
+      </Col>
     </Row>
   </Grid>
 )

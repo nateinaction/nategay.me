@@ -10,7 +10,7 @@ const Info = (props) => (
       <p>
         <strong>{'Tags: '}</strong>
         <Tags
-          tags={['node.js', 'express', 'api', 'react', 'redux']} />
+          tags={['Node.js', 'Express', 'React', 'Redux']} />
       </p>
       <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/Local-Weather'>
         View this project on Github

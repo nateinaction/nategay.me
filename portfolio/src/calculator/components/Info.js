@@ -5,7 +5,7 @@ import Tags from '../../shared/Tags'
 const CalculatorInfo = (props) => (
   <Col className='calculator-info' xs={12} md={5} mdOffset={1}>
     <h2>Calculator</h2>
-    <p>{'This calculator is a web app built using Facebook\'s React library and uses Redux for state management. The standalone version has a 4.0 score from CodeClimate. It was built in response to a challenge on Free Code Camp.'}</p>
+    <p><strong>{'Calculator'}</strong>{' is a web app built using Facebook\'s React library and uses Redux for state management. The standalone version has a 4.0 score from CodeClimate.'}</p>
     <div className='text-center'>
       <p>
         <strong>{'Tags: '}</strong>

@@ -5,7 +5,7 @@ import Tags from '../../shared/Tags'
 const SimonInfo = (props) => (
   <Col className='simon-info' xs={12} md={5} mdOffset={1}>
     <h2>Simon</h2>
-    <p>{'This simon game is built using Facebook\'s React library and uses Redux for state management. The standalone version has a 4.0 score from CodeClimate. It was built in response to a challenge on Free Code Camp.'}</p>
+    <p><strong>{'Simon'}</strong>{' skillfully manages timing to prevent excessive calls to the application state object. The result is a responsive game interface with timed button lighting and sequence playback. It is built with React, Redux and uses howler.js for cross-platform web audio with HTML5 audio fallback.'}</p>
     <div className='text-center'>
       <p>
         <strong>{'Tags: '}</strong>

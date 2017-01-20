@@ -5,7 +5,7 @@ import Tags from '../../shared/Tags'
 const Info = (props) => (
   <Col className='weather-info' xs={12} md={5} mdOffset={1}>
     <h2>Weather</h2>
-    <p>{'This weather app was built using Facebook\'s React library and uses Redux for state management. The standalone version has a 4.0 score from CodeClimate. It was built in response to a challenge on Free Code Camp.'}</p>
+    <p><strong>{'Weather'}</strong>{' relies on an API built with Node.js and Express. The API validates requests and fetches weather data from Weather Underground. To prevent abuse, the API only responds with a valid allow-origin header when calls are made from this portfolio.'}</p>
     <div className='text-center'>
       <p>
         <strong>{'Tags: '}</strong>

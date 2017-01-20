@@ -9,7 +9,7 @@ import actions from './actions'
 
 class Weather extends Component {
 	componentDidMount() {
-		//this.props.handleFetchWeather()
+		this.props.handleFetchWeather()
 	}
 	render() {
 		return (

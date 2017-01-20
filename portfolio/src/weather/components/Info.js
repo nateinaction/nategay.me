@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Button } from 'react-bootstrap'
-import Tags from '../../tags/Tags'
+import Tags from '../../shared/Tags'
 
 const Info = (props) => (
   <Col className='weather-info' xs={12} md={5} mdOffset={1}>

@@ -7,7 +7,7 @@ import Lang from './components/Lang'
 import actions from './actions'
 
 const Languages = (props) => (
-  <Grid className='section light-section languages' fluid>
+  <Grid className='section languages' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1} className='languages'>
         <h2>{'Languages, Libraries & Tools'}</h2>

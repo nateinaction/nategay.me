@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Item from './components/Item'
 
 const CertificatesContainer = (props) => (
-  <Grid className='section light-section certificates' fluid>
+  <Grid className='section certificates' fluid>
     <Row>
       <Col xs={10} xsOffset={1}>
         <h2>{'Licenses & Certificates'}</h2>

@@ -38,7 +38,6 @@ h4 {
 p {
   font-weight: 300;
   font-size: 1.8rem;
-
 }
 
 .row {
@@ -55,7 +54,7 @@ p {
 }
 
 .light-section {
-  background-color: #eee;
+  background-color: #fff;
   color: #333;
 }
 

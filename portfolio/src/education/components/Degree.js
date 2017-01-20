@@ -1,19 +1,6 @@
 import React, { PropTypes } from 'react'
-import { Col, ListGroup, ListGroupItem, Button } from 'react-bootstrap'
-
-const VerifyButton = (props) => {
-  if (props.href) {
-    return (
-      <Button
-        href={props.href}
-        bsStyle='primary'
-        bsSize='large'>
-        Click to Verify
-      </Button>
-    )
-  }
-  return null
-}
+import { Col, ListGroup, ListGroupItem } from 'react-bootstrap'
+import VerifyButton from '../../shared/VerifyButton'
 
 const Honors = (props) => {
   if (props.honors) {

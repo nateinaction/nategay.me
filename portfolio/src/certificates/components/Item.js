@@ -1,17 +1,13 @@
 import React, { PropTypes } from 'react'
-import { Col, ListGroup, ListGroupItem, Button } from 'react-bootstrap'
+import { Col, ListGroup, ListGroupItem } from 'react-bootstrap'
+import VerifyButton from '../../shared/VerifyButton'
 
 const Item = (props) => (
   <Col xs={12} md={6}>
     <ListGroup>
       <ListGroupItem className='text-center'>
         <h3>{props.title}</h3>
-        <Button
-          href={props.href}
-          bsStyle='primary'
-          bsSize='large'>
-          Click to Verify
-        </Button>
+        <VerifyButton href={props.href} />
       </ListGroupItem>
     </ListGroup>
   </Col>

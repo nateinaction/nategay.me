@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
-import Project from './project'
+import Project from './components/Project'
 
 const Projects = (props) => (
-  <Grid className='section projects' fluid>
+  <Grid className='section light-section projects' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
         <h2>Recent Projects</h2>

@@ -8,7 +8,7 @@ import superCAImage from '../../public/images/super-ca-mobile.jpg'
 const defProjects = [
   {
     name: 'WP-Morphext',
-    description: 'Launched an open source text animation plugin for WordPress.',
+    description: 'Launched an open source text animation shortcode plugin for WordPress.',
     image: wpMorphextImage,
     tags: ['PHP', 'WordPress API'],
     github: 'https://github.com/nateinaction/wp-morphext',

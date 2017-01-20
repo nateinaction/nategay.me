@@ -15,6 +15,7 @@ import AwardsContainer from './awards/container'
 import EducationContainer from './education/container'
 import LeadershipContainer from './leadership/container'
 import WorkContainer from './work/container'
+import Separator from './shared/Separator'
 import Footer from './footer/index'
 
 const App = (props) => (
@@ -22,9 +23,13 @@ const App = (props) => (
     <Header />
     <LanguagesContainer />
     <ProjectsContainer />
+    <Separator />
     <WeatherContainer />
+    <Separator />
     <SimonContainer />
+    <Separator />
     <CalculatorContainer />
+    <Separator />
     <LeadershipContainer />
     <WorkContainer />
     <EducationContainer />

@@ -4,7 +4,8 @@
   "homepage": "https://nateinacation.github.io/nategay.me",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.4"
+    "react-scripts": "0.8.4",
+    "gh-pages": "^0.12.0"
   },
   "dependencies": {
     "animate.css": "^3.5.2",

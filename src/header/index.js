@@ -26,6 +26,7 @@ const Header = (props) => (
       <ButtonToolbar>
         <Button bsStyle='success' bsSize='large' href={resume}>Resume</Button>
         <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/'>Github</Button>
+        <Button bsStyle='danger' bsSize='large' href='mailto:email@nategay.me'>Email Me</Button>
       </ButtonToolbar>
     </Col>
     </Row>

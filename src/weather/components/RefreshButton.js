@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import { Button, Glyphicon } from 'react-bootstrap'
 
 const RefreshButton = (props) => {
-	let buttonMessage = 'Check the weather in your area'
+	let buttonMessage = 'Check your local weather'
 	let glyph = 'map-marker'
 	let className = ''
 	if (props.fetching) {

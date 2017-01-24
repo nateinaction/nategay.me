@@ -5,7 +5,7 @@ import Tags from '../../shared/Tags'
 const Info = (props) => (
   <Col className='weather-info' xs={12} md={5} mdOffset={1}>
     <h2>Weather</h2>
-    <p><strong>{'Weather'}</strong>{' relies on an API built with Node.js and Express. The API runs on IBM Bluemix Platform and fetches weather data from Weather Underground. To prevent abuse, the API only responds with a valid CORS header when calls are made from this portfolio.'}</p>
+    <p><strong>{'Weather'}</strong>{' relies on an API built with Node.js and Express. The API runs on IBM Bluemix and fetches weather data from Weather Underground. To prevent abuse, the API only responds with a valid CORS header when calls are made from this portfolio.'}</p>
     <div className='text-center'>
       <p>
         <strong>{'Tags: '}</strong>

@@ -32,7 +32,7 @@ const fetchWeather = (lat, lon) => {
 		lat = 30.223221
   	lon = -97.740359
 	}
-	let url = 'https://api.nategay.me/weather'
+	let url = 'https://nates-api.mybluemix.net/weather'
 	let config = {
 		params: {
 			lat,

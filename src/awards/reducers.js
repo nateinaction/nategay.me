@@ -4,6 +4,10 @@
 
 const defAwards = [
   {
+    name: 'Valued Service to the Mexican Consulate',
+    description: 'In December 2015 and again in May 2016 I was recognized for volunteer service at the Mexican Consulate General in Raleigh, NC. The photo is Deputy Consul, Cynthia Prida Bravo.'
+  },
+  {
     name: 'L.I. Felner Scholarship',
     description: 'In 2015 I won the L.I. Felner Scholarship which paid $1,000 toward the expenses of a Study Abroad trip in Peru. During the 6 week trip I had the opportunity to explore 6 ancient Inca sites, visit Cusco and Nasca, and learn about Peruvian politics, culture, and cuisine in Lima.'
   },

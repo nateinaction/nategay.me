@@ -2,14 +2,13 @@ import React, { PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
 import Award from './components/Award'
-import AwardImage from './components/AwardImage'
+// import AwardImage from './components/AwardImage'
 
 const Awards = (props) => (
   <Grid className='section light-section awards' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Awards</h2>
-      <AwardImage />
   	  {props.awards.map((award, index) => (
   	    <Award
   	      key={index}

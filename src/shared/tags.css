@@ -4,4 +4,581 @@
 
 .label {
   margin: 0 2px;
+  display: inline-block;
+}
+
+/* Firebase */
+
+.label-firebase {
+  color: #FFFFFF;
+  background-color: #F5820B;
+  border-color: #A15708;
+}
+
+.label-firebase:hover,
+.label-firebase:focus,
+.label-firebase:active,
+.label-firebase.active,
+.open .dropdown-toggle.label-firebase {
+  color: #FFFFFF;
+  background-color: #F5820B;
+  border-color: #A15708;
+}
+
+.label-firebase:active,
+.label-firebase.active,
+.open .dropdown-toggle.label-firebase {
+  background-image: none;
+}
+
+.label-firebase.disabled,
+.label-firebase[disabled],
+fieldset[disabled] .label-firebase,
+.label-firebase.disabled:hover,
+.label-firebase[disabled]:hover,
+fieldset[disabled] .label-firebase:hover,
+.label-firebase.disabled:focus,
+.label-firebase[disabled]:focus,
+fieldset[disabled] .label-firebase:focus,
+.label-firebase.disabled:active,
+.label-firebase[disabled]:active,
+fieldset[disabled] .label-firebase:active,
+.label-firebase.disabled.active,
+.label-firebase[disabled].active,
+fieldset[disabled] .label-firebase.active {
+  background-color: #F5820B;
+  border-color: #A15708;
+}
+
+.label-firebase .badge {
+  color: #F5820B;
+  background-color: #FFFFFF;
+}
+
+/* jQuery */
+
+.label-jquery {
+  color: #FFFFFF;
+  background-color: #0769AD;
+  border-color: #05385C;
+}
+
+.label-jquery:hover,
+.label-jquery:focus,
+.label-jquery:active,
+.label-jquery.active,
+.open .dropdown-toggle.label-jquery {
+  color: #FFFFFF;
+  background-color: #0769AD;
+  border-color: #05385C;
+}
+
+.label-jquery:active,
+.label-jquery.active,
+.open .dropdown-toggle.label-jquery {
+  background-image: none;
+}
+
+.label-jquery.disabled,
+.label-jquery[disabled],
+fieldset[disabled] .label-jquery,
+.label-jquery.disabled:hover,
+.label-jquery[disabled]:hover,
+fieldset[disabled] .label-jquery:hover,
+.label-jquery.disabled:focus,
+.label-jquery[disabled]:focus,
+fieldset[disabled] .label-jquery:focus,
+.label-jquery.disabled:active,
+.label-jquery[disabled]:active,
+fieldset[disabled] .label-jquery:active,
+.label-jquery.disabled.active,
+.label-jquery[disabled].active,
+fieldset[disabled] .label-jquery.active {
+  background-color: #0769AD;
+  border-color: #05385C;
+}
+
+.label-jquery .badge {
+  color: #0769AD;
+  background-color: #FFFFFF;
+}
+
+/* WordPress */
+
+.label-wordpress {
+  color: #FFFFFF;
+  background-color: #0073AA;
+  border-color: #003D59;
+}
+
+.label-wordpress:hover,
+.label-wordpress:focus,
+.label-wordpress:active,
+.label-wordpress.active,
+.open .dropdown-toggle.label-wordpress {
+  color: #FFFFFF;
+  background-color: #0073AA;
+  border-color: #003D59;
+}
+
+.label-wordpress:active,
+.label-wordpress.active,
+.open .dropdown-toggle.label-wordpress {
+  background-image: none;
+}
+
+.label-wordpress.disabled,
+.label-wordpress[disabled],
+fieldset[disabled] .label-wordpress,
+.label-wordpress.disabled:hover,
+.label-wordpress[disabled]:hover,
+fieldset[disabled] .label-wordpress:hover,
+.label-wordpress.disabled:focus,
+.label-wordpress[disabled]:focus,
+fieldset[disabled] .label-wordpress:focus,
+.label-wordpress.disabled:active,
+.label-wordpress[disabled]:active,
+fieldset[disabled] .label-wordpress:active,
+.label-wordpress.disabled.active,
+.label-wordpress[disabled].active,
+fieldset[disabled] .label-wordpress.active {
+  background-color: #0073AA;
+  border-color: #003D59;
+}
+
+.label-wordpress .badge {
+  color: #0073AA;
+  background-color: #FFFFFF;
+}
+
+/* Bootstrap */
+
+.label-bootstrap {
+  color: #FFFFFF;
+  background-color: #5B4282;
+  border-color: #2E2142;
+}
+
+.label-bootstrap:hover,
+.label-bootstrap:focus,
+.label-bootstrap:active,
+.label-bootstrap.active,
+.open .dropdown-toggle.label-bootstrap {
+  color: #FFFFFF;
+  background-color: #5B4282;
+  border-color: #2E2142;
+}
+
+.label-bootstrap:active,
+.label-bootstrap.active,
+.open .dropdown-toggle.label-bootstrap {
+  background-image: none;
+}
+
+.label-bootstrap.disabled,
+.label-bootstrap[disabled],
+fieldset[disabled] .label-bootstrap,
+.label-bootstrap.disabled:hover,
+.label-bootstrap[disabled]:hover,
+fieldset[disabled] .label-bootstrap:hover,
+.label-bootstrap.disabled:focus,
+.label-bootstrap[disabled]:focus,
+fieldset[disabled] .label-bootstrap:focus,
+.label-bootstrap.disabled:active,
+.label-bootstrap[disabled]:active,
+fieldset[disabled] .label-bootstrap:active,
+.label-bootstrap.disabled.active,
+.label-bootstrap[disabled].active,
+fieldset[disabled] .label-bootstrap.active {
+  background-color: #5B4282;
+  border-color: #2E2142;
+}
+
+.label-bootstrap .badge {
+  color: #5B4282;
+  background-color: #FFFFFF;
+}
+
+/* PHP */
+
+.label-php {
+  color: #FFFFFF;
+  background-color: #6A619A;
+  border-color: #3C3759;
+}
+
+.label-php:hover,
+.label-php:focus,
+.label-php:active,
+.label-php.active,
+.open .dropdown-toggle.label-php {
+  color: #FFFFFF;
+  background-color: #6A619A;
+  border-color: #3C3759;
+}
+
+.label-php:active,
+.label-php.active,
+.open .dropdown-toggle.label-php {
+  background-image: none;
+}
+
+.label-php.disabled,
+.label-php[disabled],
+fieldset[disabled] .label-php,
+.label-php.disabled:hover,
+.label-php[disabled]:hover,
+fieldset[disabled] .label-php:hover,
+.label-php.disabled:focus,
+.label-php[disabled]:focus,
+fieldset[disabled] .label-php:focus,
+.label-php.disabled:active,
+.label-php[disabled]:active,
+fieldset[disabled] .label-php:active,
+.label-php.disabled.active,
+.label-php[disabled].active,
+fieldset[disabled] .label-php.active {
+  background-color: #6A619A;
+  border-color: #3C3759;
+}
+
+.label-php .badge {
+  color: #6A619A;
+  background-color: #FFFFFF;
+}
+
+/* react */
+
+.label-react {
+  color: #FFFFFF;
+  background-color: #00D8FF;
+  border-color: #008BA3;
+}
+
+.label-react:hover,
+.label-react:focus,
+.label-react:active,
+.label-react.active,
+.open .dropdown-toggle.label-react {
+  color: #FFFFFF;
+  background-color: #00d8ff;
+  border-color: #008BA3;
+}
+
+.label-react:active,
+.label-react.active,
+.open .dropdown-toggle.label-react {
+  background-image: none;
+}
+
+.label-react.disabled,
+.label-react[disabled],
+fieldset[disabled] .label-react,
+.label-react.disabled:hover,
+.label-react[disabled]:hover,
+fieldset[disabled] .label-react:hover,
+.label-react.disabled:focus,
+.label-react[disabled]:focus,
+fieldset[disabled] .label-react:focus,
+.label-react.disabled:active,
+.label-react[disabled]:active,
+fieldset[disabled] .label-react:active,
+.label-react.disabled.active,
+.label-react[disabled].active,
+fieldset[disabled] .label-react.active {
+  background-color: #00D8FF;
+  border-color: #008BA3;
+}
+
+.label-react .badge {
+  color: #00D8FF;
+  background-color: #FFFFFF;
+}
+
+/* redux */
+
+.label-redux {
+  color: #FFFFFF;
+  background-color: #852DBD;
+  border-color: #4C1A6B;
+}
+
+.label-redux:hover,
+.label-redux:focus,
+.label-redux:active,
+.label-redux.active,
+.open .dropdown-toggle.label-redux {
+  color: #FFFFFF;
+  background-color: #852DBD;
+  border-color: #4C1A6B;
+}
+
+.label-redux:active,
+.label-redux.active,
+.open .dropdown-toggle.label-redux {
+  background-image: none;
+}
+
+.label-redux.disabled,
+.label-redux[disabled],
+fieldset[disabled] .label-redux,
+.label-redux.disabled:hover,
+.label-redux[disabled]:hover,
+fieldset[disabled] .label-redux:hover,
+.label-redux.disabled:focus,
+.label-redux[disabled]:focus,
+fieldset[disabled] .label-redux:focus,
+.label-redux.disabled:active,
+.label-redux[disabled]:active,
+fieldset[disabled] .label-redux:active,
+.label-redux.disabled.active,
+.label-redux[disabled].active,
+fieldset[disabled] .label-redux.active {
+  background-color: #852DBD;
+  border-color: #4C1A6B;
+}
+
+.label-redux .badge {
+  color: #852DBD;
+  background-color: #FFFFFF;
+}
+
+/* express */
+
+.label-express {
+  color: #FFFFFF;
+  background-color: #259DFF;
+  border-color: #1D6FB3;
+}
+
+.label-express:hover,
+.label-express:focus,
+.label-express:active,
+.label-express.active,
+.open .dropdown-toggle.label-express {
+  color: #FFFFFF;
+  background-color: #259dff;
+  border-color: #1D6FB3;
+}
+
+.label-express:active,
+.label-express.active,
+.open .dropdown-toggle.label-express {
+  background-image: none;
+}
+
+.label-express.disabled,
+.label-express[disabled],
+fieldset[disabled] .label-express,
+.label-express.disabled:hover,
+.label-express[disabled]:hover,
+fieldset[disabled] .label-express:hover,
+.label-express.disabled:focus,
+.label-express[disabled]:focus,
+fieldset[disabled] .label-express:focus,
+.label-express.disabled:active,
+.label-express[disabled]:active,
+fieldset[disabled] .label-express:active,
+.label-express.disabled.active,
+.label-express[disabled].active,
+fieldset[disabled] .label-express.active {
+  background-color: #259DFF;
+  border-color: #1D6FB3;
+}
+
+.label-express .badge {
+  color: #259DFF;
+  background-color: #FFFFFF;
+}
+
+/* nodejs */
+
+.label-nodejs {
+  color: #FFFFFF;
+  background-color: #026E00;
+  border-color: #013B00;
+}
+
+.label-nodejs:hover,
+.label-nodejs:focus,
+.label-nodejs:active,
+.label-nodejs.active,
+.open .dropdown-toggle.label-nodejs {
+  color: #FFFFFF;
+  background-color: #026E00;
+  border-color: #013B00;
+}
+
+.label-nodejs:active,
+.label-nodejs.active,
+.open .dropdown-toggle.label-nodejs {
+  background-image: none;
+}
+
+.label-nodejs.disabled,
+.label-nodejs[disabled],
+fieldset[disabled] .label-nodejs,
+.label-nodejs.disabled:hover,
+.label-nodejs[disabled]:hover,
+fieldset[disabled] .label-nodejs:hover,
+.label-nodejs.disabled:focus,
+.label-nodejs[disabled]:focus,
+fieldset[disabled] .label-nodejs:focus,
+.label-nodejs.disabled:active,
+.label-nodejs[disabled]:active,
+fieldset[disabled] .label-nodejs:active,
+.label-nodejs.disabled.active,
+.label-nodejs[disabled].active,
+fieldset[disabled] .label-nodejs.active {
+  background-color: #026E00;
+  border-color: #013B00;
+}
+
+.label-nodejs .badge {
+  color: #026E00;
+  background-color: #FFFFFF;
+}
+
+/* Kubernetes */
+
+.label-kubernetes {
+  color: #FFFFFF;
+  background-color: #3371E3;
+  border-color: #254D99;
+}
+
+.label-kubernetes:hover,
+.label-kubernetes:focus,
+.label-kubernetes:active,
+.label-kubernetes.active,
+.open .dropdown-toggle.label-kubernetes {
+  color: #FFFFFF;
+  background-color: #3371E3;
+  border-color: #254D99;
+}
+
+.label-kubernetes:active,
+.label-kubernetes.active,
+.open .dropdown-toggle.label-kubernetes {
+  background-image: none;
+}
+
+.label-kubernetes.disabled,
+.label-kubernetes[disabled],
+fieldset[disabled] .label-kubernetes,
+.label-kubernetes.disabled:hover,
+.label-kubernetes[disabled]:hover,
+fieldset[disabled] .label-kubernetes:hover,
+.label-kubernetes.disabled:focus,
+.label-kubernetes[disabled]:focus,
+fieldset[disabled] .label-kubernetes:focus,
+.label-kubernetes.disabled:active,
+.label-kubernetes[disabled]:active,
+fieldset[disabled] .label-kubernetes:active,
+.label-kubernetes.disabled.active,
+.label-kubernetes[disabled].active,
+fieldset[disabled] .label-kubernetes.active {
+  background-color: #3371E3;
+  border-color: #254D99;
+}
+
+.label-kubernetes .badge {
+  color: #3371E3;
+  background-color: #FFFFFF;
+}
+
+/* Docker */
+
+.label-docker {
+  color: #FFFFFF;
+  background-color: #0087C9;
+  border-color: #005580;
+}
+
+.label-docker:hover,
+.label-docker:focus,
+.label-docker:active,
+.label-docker.active,
+.open .dropdown-toggle.label-docker {
+  color: #FFFFFF;
+  background-color: #0087C9;
+  border-color: #005580;
+}
+
+.label-docker:active,
+.label-docker.active,
+.open .dropdown-toggle.label-docker {
+  background-image: none;
+}
+
+.label-docker.disabled,
+.label-docker[disabled],
+fieldset[disabled] .label-docker,
+.label-docker.disabled:hover,
+.label-docker[disabled]:hover,
+fieldset[disabled] .label-docker:hover,
+.label-docker.disabled:focus,
+.label-docker[disabled]:focus,
+fieldset[disabled] .label-docker:focus,
+.label-docker.disabled:active,
+.label-docker[disabled]:active,
+fieldset[disabled] .label-docker:active,
+.label-docker.disabled.active,
+.label-docker[disabled].active,
+fieldset[disabled] .label-docker.active {
+  background-color: #0087C9;
+  border-color: #005580;
+}
+
+.label-docker .badge {
+  color: #0087C9;
+  background-color: #FFFFFF;
+}
+
+/* GraphQL */
+
+.label-graphql {
+  color: #FFFFFF;
+  background-color: #E00096;
+  border-color: #990066;
+}
+
+.label-graphql:hover,
+.label-graphql:focus,
+.label-graphql:active,
+.label-graphql.active,
+.open .dropdown-toggle.label-graphql {
+  color: #FFFFFF;
+  background-color: #E00096;
+  border-color: #990066;
+}
+
+.label-graphql:active,
+.label-graphql.active,
+.open .dropdown-toggle.label-graphql {
+  background-image: none;
+}
+
+.label-graphql.disabled,
+.label-graphql[disabled],
+fieldset[disabled] .label-graphql,
+.label-graphql.disabled:hover,
+.label-graphql[disabled]:hover,
+fieldset[disabled] .label-graphql:hover,
+.label-graphql.disabled:focus,
+.label-graphql[disabled]:focus,
+fieldset[disabled] .label-graphql:focus,
+.label-graphql.disabled:active,
+.label-graphql[disabled]:active,
+fieldset[disabled] .label-graphql:active,
+.label-graphql.disabled.active,
+.label-graphql[disabled].active,
+fieldset[disabled] .label-graphql.active {
+  background-color: #E00096;
+  border-color: #990066;
+}
+
+.label-graphql .badge {
+  color: #E00096;
+  background-color: #FFFFFF;
 }

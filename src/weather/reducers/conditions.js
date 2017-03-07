@@ -1,7 +1,7 @@
 const defConditions = {
 	location: null,
-	temp: {F: null, C: null},
-	condition: null,
+	temp: {fahrenheit: null, celsius: null},
+	weather: null,
 	icon: null
 }
 const conditions = (state = defConditions, action) => {

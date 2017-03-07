@@ -1,4 +1,25 @@
-import axios from 'axios';
+import { Lokka } from 'lokka'
+import { Transport } from 'lokka-transport-http'
+
+const client = new Lokka({
+  transport: new Transport('http://api.nategay.me/')
+})
+
+const fetchQuery = (lat = `30.223221`, lon = `-97.740359`) => (
+  client.query(`
+    {
+      now(lat:"${lat}", lon:"${lon}") {
+				location
+		    weather
+		    icon
+		    temp {
+		      fahrenheit
+		      celsius
+		    }
+			}
+    }
+  `)
+)
 
 const setMessage = (message) => ({
 	type: 'SET_MESSAGE',
@@ -22,35 +43,24 @@ const toggleScale = (obj) => ({
 const scaleClick = () => (
 	(dispatch, getState) => {
 		let { weather } = getState()
-		let obj = (weather.display.scale === 'F') ? {scale: 'C'} : {scale: 'F'}
+		let obj = (weather.display.scale === 'fahrenheit') ? {scale: 'celsius'} : {scale: 'fahrenheit'}
 		return dispatch(toggleScale(obj))
 	}
 )
 
-const fetchWeather = (lat, lon) => {
-	if (!lat || !lon) {
-		lat = 30.223221
-  	lon = -97.740359
-	}
-	let url = 'https://nates-api.mybluemix.net/weather'
-	let config = {
-		params: {
-			lat,
-			lon
-		}
-	}
-  return dispatch => {
+const fetchWeather = (lat, lon) => (
+  (dispatch) => {
     dispatch(setFetching())
-    return axios.get(url, config)
-			.then(response => {
-				return dispatch(setWeather(response.data))
-			})
+    return fetchQuery(lat, lon)
+			.then(res => (
+				dispatch(setWeather(res.now))
+			))
 		  .catch(err => {
 				if (err) console.log(err)
 		  	return dispatch(setMessage('Unable to connect to Weather Underground. Please check your internet connection.'))
 		  });
   }
-}
+)
 
 const fetchCoords = () => (
   (dispatch) => {

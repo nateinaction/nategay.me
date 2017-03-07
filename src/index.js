@@ -10,7 +10,7 @@ import CertificatesContainer from './certificates/container'
 import LanguagesContainer from './languages/container'
 import CalculatorContainer from './calculator/container'
 import SimonContainer from './simon/container'
-//import WeatherContainer from './weather/container'
+import WeatherContainer from './weather/container'
 import AwardsContainer from './awards/container'
 import EducationContainer from './education/container'
 import LeadershipContainer from './leadership/container'
@@ -24,6 +24,8 @@ const App = (props) => (
     <Header />
     <LanguagesContainer />
     <ProjectsContainer />
+    <Separator />
+    <WeatherContainer />
     <Separator />
     <SimonContainer />
     <Separator />

@@ -5,12 +5,12 @@ import Tags from '../../shared/Tags'
 const Info = (props) => (
   <Col className='weather-info' xs={12} md={5} mdOffset={1}>
     <h2>Weather</h2>
-    <p><strong>{'Weather'}</strong>{' relies on an API built with Node.js and Express. The API runs on IBM Bluemix and fetches weather data from Weather Underground. To prevent abuse, the API only responds with a valid CORS header when calls are made from this portfolio.'}</p>
+    <p><strong>{'Weather'}</strong>{' relies on a GraphQL endpoint written with Node.js and exposed with Express. The GraphQL endpoint is deployed using Kubernetes on the Google Cloud Platform. Data is fetched from the Weather Underground REST API.'}</p>
     <div className='text-center'>
       <p>
         <strong>{'Tags: '}</strong>
         <Tags
-          tags={['Node.js', 'Express', 'React', 'Redux']} />
+          tags={['Kubernetes', 'Docker', 'GraphQL', 'Node.js', 'Express', 'React', 'Redux']} />
       </p>
       <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/Local-Weather'>
         View this project on Github

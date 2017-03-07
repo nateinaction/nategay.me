@@ -14,7 +14,7 @@ const WeatherTempAndCondition = (props) => (
 	</Col>
 	<Col xs={12} className='condition-col'>
 		<WeatherCondition
-			condition={props.weather.condition} />
+			condition={props.weather.weather} />
 	</Col>
 	</div>
 )

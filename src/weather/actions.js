@@ -2,7 +2,7 @@ import { Lokka } from 'lokka'
 import { Transport } from 'lokka-transport-http'
 
 const client = new Lokka({
-  transport: new Transport('http://api.nategay.me/')
+  transport: new Transport('https://api.nategay.me/')
 })
 
 const fetchQuery = (lat = `30.223221`, lon = `-97.740359`) => (

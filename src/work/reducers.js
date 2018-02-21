@@ -4,13 +4,18 @@
 
 const defWork = [
   {
+    name: 'Enterprise Support Technician, WP Engine',
+    description: 'Deliver world class customer service and triage technical problems across thousands of websites.',
+    dates: '2017-present'
+  },
+  {
     name: 'Front End Developer, worldpeace.io',
     description: 'Designed and built professional websites and plugins for social minded clients using the WordPress API.',
-    dates: '2016-present'
+    dates: '2016-2017'
   },
   {
     name: 'Resident Advisor, University Housing',
-    description: 'Coached 80 residents in student success skills and monitored a complex of 1200 students.',
+    description: 'Coached 80 residents in student success skills and organized events in a community of 1200.',
     dates: '2014-2016'
   },
   {

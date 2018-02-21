@@ -31,8 +31,8 @@ const App = (props) => (
     <Separator />
     <CalculatorContainer />
     <Separator />
-    <LeadershipContainer />
     <WorkContainer />
+    <LeadershipContainer />
     <EducationContainer />
     <AwardsContainer />
     <InterculturalContainer />

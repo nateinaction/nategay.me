@@ -5,7 +5,7 @@ const client = new Lokka({
   transport: new Transport('https://api.nategay.me/')
 })
 
-const fetchQuery = (lat = `30.223221`, lon = `-97.740359`) => (
+const fetchQuery = (lat = `49.7913`, lon = `9.9534`) => (
   client.query(`
     {
       now(lat:"${lat}", lon:"${lon}") {

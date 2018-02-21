@@ -6,6 +6,18 @@
   outline: none !important;
 }
 
+.calculator-app .btn:hover, .calculator-app .btn:focus, .calculator-app .btn:active, .calculator-app .btn.active {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.calculator-app .btn:active {
+	background-color: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .calculator-buttons {
 	padding: 0;
 }

@@ -5,7 +5,7 @@ import Item from './components/Item'
 //import Image from './components/Image'
 
 const Work = (props) => (
-  <Grid className='section light-section awards' fluid>
+  <Grid className='section awards' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Work</h2>

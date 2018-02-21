@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Item from './components/Item'
 
 const Leadership = (props) => (
-  <Grid className='section awards' fluid>
+  <Grid className='section light-section awards' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Leadership</h2>

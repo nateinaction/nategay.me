@@ -4,13 +4,13 @@
 
 const defWork = [
   {
-    name: 'Enterprise Support Technician, WP Engine',
+    name: 'Enterprise WordPress Support Technician, WP Engine',
     description: 'Deliver world class customer service and triage technical problems across thousands of websites.',
     dates: '2017-present'
   },
   {
     name: 'Front End Developer, worldpeace.io',
-    description: 'Designed and built professional websites and plugins for social minded clients using the WordPress API.',
+    description: 'Designed and built professional websites and plugins for social minded clients using WordPress.',
     dates: '2016-2017'
   },
   {

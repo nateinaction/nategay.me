@@ -18,7 +18,7 @@ const Header = (props) => (
     </Row>
     <Row>
     <Col xs={10} xsOffset={1} md={12} mdOffset={0}>
-      <h4>{'Hi! I\'m Nate, a software developer and I\'m looking for a challenge.'}</h4>
+      <h4>{'Hi! I\'m Nate, a WordPress guru and I\'m looking for a challenge.'}</h4>
     </Col>
     </Row>
     <Row>

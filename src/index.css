@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #eee;
+  background-color: #333;
   font-family: sans-serif;
   font-weight: 300
 }
@@ -13,22 +13,27 @@ h1, h2, h3, h4 {
 h1 {
   color: orange;
   font-size: 6.8rem;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 4.0rem;
-  font-weight: 700;
   margin-top: 0;
   margin-bottom: 2.5rem;
 }
 
-h3 {
+h3, h4 {
   font-size: 2.4rem;
 }
 
-p {
+h1, h2 {
+  font-weight: 700;
+}
+
+h4, p, .btn {
   font-weight: 300;
+}
+
+p {
   font-size: 1.8rem;
 }
 
@@ -50,6 +55,11 @@ p {
   color: #eee;
 }
 
+.neutral-section {
+  background-color: #eee;
+  color: #333;
+}
+
 .light-section {
   background-color: #fff;
   color: #333;
@@ -65,7 +75,6 @@ p {
 
 .btn {
   transition: all .2s ease-in-out;
-  font-weight: 300;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {

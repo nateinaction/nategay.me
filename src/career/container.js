@@ -5,7 +5,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Item from './components/Item'
 
 const Career = (props) => (
-  <Grid className='section awards' fluid>
+  <Grid className='section career neutral-section' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Career</h2>

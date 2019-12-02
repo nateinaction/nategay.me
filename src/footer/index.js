@@ -10,13 +10,9 @@ const Footer = (props) => (
       </Col>
       <Col xs={12} className='text-center footer-info'>
         <p>
-          {'Full source code available '}
+          {'View this site\'s source code on '}
           <a href='https://github.com/nateinaction/nategay.me' alt='Link to source on Github'>
-            here
-          </a>
-          {'. Send a challenge to '}
-          <a href='mailto:email@nategay.me' alt='Email Nate Gay'>
-            {'email@nategay.me'}
+            Github
           </a>
           {'.'}
         </p>

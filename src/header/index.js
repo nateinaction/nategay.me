@@ -1,13 +1,18 @@
 import React from 'react'
-import { Grid, Row, Col, Image, ButtonToolbar, Button } from 'react-bootstrap'
+import { Grid, Row, Col, ButtonToolbar, Button } from 'react-bootstrap'
 import './index.css'
 import profileImage from '../assets/images/avatar.png'
+import profileImageWebp from '../assets/images/avatar.webp'
 
 const Header = (props) => (
   <Grid className='section dark-section header' fluid>
     <Row>
     <Col xs={12} className='text-center'>
-      <Image src={profileImage} className='profile-image' circle />
+      <picture>
+        <source srcSet={profileImageWebp} type="image/webp"/>
+        <source srcSet={profileImage} type="image/jpeg"/> 
+        <img src={profileImage} className='profile-image' alt="Nate Gay's avatar"></img>
+      </picture>
     </Col>
     </Row>
     <Row>

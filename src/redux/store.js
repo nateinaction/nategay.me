@@ -22,9 +22,6 @@ import education from '../education/reducers'
 // career
 import career from '../career/reducers'
 
-// intercultural
-import intercultural from '../intercultural/reducers'
-
 /*
  * Redux Combine Reducers
  */
@@ -36,8 +33,7 @@ const portfolioApp = combineReducers({
   simon,
   awards,
   education,
-  career,
-  intercultural
+  career
 })
 
 /*

@@ -9,7 +9,6 @@ import AwardsContainer from './awards/container'
 import EducationContainer from './education/container'
 import CareerContainer from './career/container'
 import Separator from './shared/Separator'
-import InterculturalContainer from './intercultural/container'
 import Footer from './footer/index'
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
       <AwardsContainer />
       <EducationContainer />
       <CertificatesContainer />
-      <InterculturalContainer />
       <Footer />
     </div>
   );

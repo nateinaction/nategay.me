@@ -10,7 +10,7 @@ const defCareer = [
   },
   {
     name: 'Enterprise WordPress Support Technician, WP Engine',
-    description: 'Deliver world class customer service and triage technical problems across hundreds of thousands of websites.',
+    description: 'Delivered world class customer service and triage technical problems across hundreds of thousands of websites.',
     dates: '2017-2018'
   },
   {

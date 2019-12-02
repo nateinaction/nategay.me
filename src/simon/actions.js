@@ -35,7 +35,7 @@ const loadAudioHelper = () => {
 	})
 	return sound;
 }
-const audio = loadAudioHelper()
+let audio = null
 
 const newSequenceHelper = () => {
 	return Array(20).fill(null).map(() => (
@@ -146,6 +146,9 @@ const playSequence = (count = 0) => (
 
 const setTurnToComputer = () => (
 	(dispatch, getState) => {
+		if (audio === null) {
+			audio = loadAudioHelper()
+		}
 		let { simon } = getState()
 		if (simon.sequence.length === 0) {
 			dispatch(setSequence())

@@ -17,7 +17,7 @@ const Header = (props) => (
     </Row>
     <Row>
     <Col xs={10} xsOffset={1} md={12} mdOffset={0}>
-      <h4>{'🚀 Think and do.'}</h4>
+      <h3 className={'motto'}>{'🚀 Think and do.'}</h3>
     </Col>
     </Row>
     <Row>

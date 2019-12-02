@@ -1,5 +1,6 @@
 /**
  * This script outputs only the CSS used on pageload. Requires local server to be running.
+ * https://stackoverflow.com/questions/45106841/chrome-devtools-coverage-how-to-save-or-capture-code-used-code
  */
 const localAddress = 'http://localhost:3000';
 const puppeteer = require('puppeteer');

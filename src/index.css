@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: #eee;
   font-family: sans-serif;
+  font-weight: 300
 }
 
 h1, h2, h3, h4 {
@@ -19,21 +20,21 @@ h2 {
   font-size: 4.0rem;
   font-weight: 700;
   margin-top: 0;
+  margin-bottom: 2.5rem;
 }
 
 h3 {
   font-size: 2.4rem;
 }
 
-h4 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 300;
-}
-
 p {
   font-weight: 300;
   font-size: 1.8rem;
+}
+
+.metadata {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .row {
@@ -64,6 +65,7 @@ p {
 
 .btn {
   transition: all .2s ease-in-out;
+  font-weight: 300;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {

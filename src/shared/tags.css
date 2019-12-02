@@ -5,6 +5,7 @@
 .label {
   margin: 0 2px;
   display: inline-block;
+  font-weight: 300;
 }
 
 /* Firebase */

@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap'
-import './verifyButton.css'
 
 const VerifyButton = (props) => {
   if (props.href) {
     return (
       <Button
         href={props.href}
-        bsStyle='default'>
+        bsStyle='default'
+        bsSize='large'>
         Click to Verify
       </Button>
     )

@@ -5,6 +5,8 @@
   "private": true,
   "devDependencies": {
     "gh-pages": "^2.1.1",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^5.1.0",
     "puppeteer": "^2.0.0",
     "react-scripts": "^3.2.0"
   },

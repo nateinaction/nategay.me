@@ -17,14 +17,15 @@ const Header = (props) => (
     </Row>
     <Row>
     <Col xs={10} xsOffset={1} md={12} mdOffset={0}>
-      <h4>{'Hi! I\'m Nate, a Software Engineer and I\'m looking for a challenge.'}</h4>
+      <h4>{'🚀 Think and do.'}</h4>
     </Col>
     </Row>
     <Row>
     <Col xs={12} className='header-buttons text-center'>
       <ButtonToolbar>
         <Button bsStyle='primary' bsSize='large' href='https://github.com/nateinaction/'>Github</Button>
-        <Button bsStyle='danger' bsSize='large' href='mailto:email@nategay.me'>Email Me</Button>
+        <Button bsStyle='primary' bsSize='large' href='https://www.linkedin.com/in/nate-gay'>LinkedIn</Button>
+        <Button bsStyle='primary' bsSize='large' href='mailto:email@nategay.me'>Email</Button>
       </ButtonToolbar>
     </Col>
     </Row>

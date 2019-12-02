@@ -14,6 +14,9 @@ const Awards = (props) => (
   	    <Award
   	      key={index}
   	      name={award.name}
+          organization={award.organization}
+          date={award.date}
+          location={award.location}
           description={award.description} />
     	  ))}
       </Col>

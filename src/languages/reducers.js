@@ -3,18 +3,15 @@
  */
 
 const defState = [
-  {lang: 'JavaScript', hover: false},
-  {lang: 'Yarn', hover: false},
-  {lang: 'React', hover: false},
-  {lang: 'Redux', hover: false},
+  {lang: 'Python', hover: false},
+  {lang: 'Javascript', hover: false},
   {lang: 'PHP', hover: false},
-  {lang: 'Composer', hover: false},
-  {lang: 'WordPress API', hover: false},
-  {lang: 'PHP Unit', hover: false},
   {lang: 'Docker', hover: false},
-  {lang: 'WP CLI', hover: false},
-  {lang: 'GraphQL', hover: false},
-  {lang: 'Git', hover: false}
+  {lang: 'React', hover: false},
+  {lang: 'WordPress', hover: false},
+  {lang: 'Terraform', hover: false},
+  {lang: 'GCP', hover: false},
+  {lang: 'AWS', hover: false},
 ];
 
 /*

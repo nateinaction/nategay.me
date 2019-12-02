@@ -4,21 +4,61 @@
 
 const defAwards = [
   {
-    name: 'Valued Service to the Mexican Consulate',
-    description: 'In December 2015 and again in May 2016 I was recognized for volunteer service at the Mexican Consulate General in Raleigh, NC. The photo is Deputy Consul, Cynthia Prida Bravo.'
+    name: 'Hackathon - Best in Show',
+    organization: 'WP Engine',
+    date: '2019',
+    location: 'Austin, TX',
+    description: 'For producing a browser based shell environment that allowed effortless SSH access to administer customer websites.'
   },
   {
-    name: 'L.I. Felner Scholarship',
-    description: 'In 2015 I won the L.I. Felner Scholarship which paid $1,000 toward the expenses of a Study Abroad trip in Peru. During the 6 week trip I had the opportunity to explore 6 ancient Inca sites, visit Cusco and Nasca, and learn about Peruvian politics, culture, and cuisine in Lima.'
+    name: 'Hackathon - Game Changer',
+    organization: 'WP Engine',
+    date: '2018',
+    location: 'Austin, TX',
+    description: 'For creating a web traffic queueing proxy in Golang which spread traffic equally among customers sharing the same environment.'
+  },
+  {
+    name: 'Raspberry Pi Competition',
+    organization: 'WP Engine',
+    date: '2017',
+    location: 'Austin, TX',
+    description: 'For contributed hardware and software to create a monitoring system for a self-sustaining aquarium.'
   },
   {
     name: 'Outstanding Service to the Spanish Program',
-    description: 'In Summer 2016 I was recognized for my work leading the first student-led governing council of a Spanish language volunteer organization called VOLAR (Voluntarios Ahora en Raleigh).'
+    organization: 'Department of Foreign Languages, NC State',
+    date: '2015, 2016',
+    location: 'Raleigh, NC',
+    description: 'For maintaining relationships with Mexican Consulate General and Spanish language tax services.'
   },
   {
-    name: 'CubeSat Research Grant',
-    description: 'In 2013, as Co-President of the Commercial Space Club, I applied for and received a $1000 grant to develop a CubeSat prototype.'
-  }
+    name: 'Valued Service to the Mexican Consulate',
+    organization: 'Consulado General de México en Raleigh',
+    date: '2015, 2016',
+    location: 'Raleigh, NC',
+    description: 'For training and managing student volunteers for the Mexican Consulate.'
+  },
+  {
+    name: 'L.I. Felner Scholarship',
+    organization: 'Department of Foreign Languages, NC State',
+    date: '2015',
+    location: 'Raleigh, NC',
+    description: 'To fuel continued dedication to the Spanish language volunteer community.'
+  },
+  {
+    name: 'Excellence in Community Service',
+    organization: 'Voluntarios Ahora en Raleigh (VOLAR), NC State',
+    date: '2015',
+    location: 'Raleigh, NC',
+    description: 'For collaborating with advisors, students, and community partners to create Spanish language volunteer opportunities.'
+  },
+  {
+    name: 'Research Award',
+    organization: 'Office of Undergraduate Research, NC State',
+    date: '2013',
+    location: 'Raleigh, NC',
+    description: 'Secured a grant for cube-sat prototyping and in-orbit communications research.'
+  },
 ]
 
 /*

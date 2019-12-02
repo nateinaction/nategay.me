@@ -4,12 +4,12 @@ import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
 import Item from './components/Item'
 
-const Leadership = (props) => (
-  <Grid className='section light-section awards' fluid>
+const Career = (props) => (
+  <Grid className='section awards' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
-      <h2>Leadership</h2>
-  	  {props.leadership.map((experience, index) => (
+      <h2>Career</h2>
+  	  {props.career.map((experience, index) => (
   	    <Item
   	      key={index}
   	      name={experience.name}
@@ -20,8 +20,8 @@ const Leadership = (props) => (
     </Row>
   </Grid>
 )
-Leadership.propTypes =  {
-	leadership: PropTypes.array.isRequired
+Career.propTypes =  {
+	career: PropTypes.array.isRequired
 }
 
 /*
@@ -29,11 +29,11 @@ Leadership.propTypes =  {
  */
 
 const mapStateToProps = (state) => ({
-	leadership: state.leadership
+	career: state.career
 })
 
-const LeadershipContainer = connect(
+const CareerContainer = connect(
 	mapStateToProps
-)(Leadership)
+)(Career)
 
-export default LeadershipContainer
+export default CareerContainer

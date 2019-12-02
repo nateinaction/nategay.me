@@ -8,7 +8,7 @@ const classes = (hover) => (
 )
 
 const Lang = (props) => (
-  <Col xs={6} md={3}>
+  <Col xs={6} md={4}>
     <span
       className={classes(props.hoverState)}
       onMouseEnter={() => props.hover(props.lang)}

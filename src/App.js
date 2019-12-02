@@ -7,8 +7,7 @@ import CalculatorContainer from './calculator/container'
 import SimonContainer from './simon/container'
 import AwardsContainer from './awards/container'
 import EducationContainer from './education/container'
-import LeadershipContainer from './leadership/container'
-import WorkContainer from './work/container'
+import CareerContainer from './career/container'
 import Separator from './shared/Separator'
 import InterculturalContainer from './intercultural/container'
 import Footer from './footer/index'
@@ -24,12 +23,11 @@ function App() {
       <Separator />
       <CalculatorContainer />
       <Separator />
-      <WorkContainer />
-      <LeadershipContainer />
-      <EducationContainer />
+      <CareerContainer />
       <AwardsContainer />
-      <InterculturalContainer />
+      <EducationContainer />
       <CertificatesContainer />
+      <InterculturalContainer />
       <Footer />
     </div>
   );

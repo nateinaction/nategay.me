@@ -19,11 +19,8 @@ import awards from '../awards/reducers'
 // education
 import education from '../education/reducers'
 
-// leadership
-import leadership from '../leadership/reducers'
-
-// work
-import work from '../work/reducers'
+// career
+import career from '../career/reducers'
 
 // intercultural
 import intercultural from '../intercultural/reducers'
@@ -39,8 +36,7 @@ const portfolioApp = combineReducers({
   simon,
   awards,
   education,
-  leadership,
-  work,
+  career,
   intercultural
 })
 

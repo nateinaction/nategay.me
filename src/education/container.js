@@ -3,14 +3,12 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux'
 import { Grid, Row, Col } from 'react-bootstrap'
 import Degree from './components/Degree'
-import EducationImage from './components/EducationImage'
 
 const Education = (props) => (
   <Grid className='section education' fluid>
     <Row>
       <Col xs={12} md={10} mdOffset={1}>
       <h2>Education</h2>
-      <EducationImage />
   	  {props.education.map((degree, index) => (
   	    <Degree
   	      key={index}

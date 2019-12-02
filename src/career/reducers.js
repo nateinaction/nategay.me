@@ -2,11 +2,16 @@
  * Redux Default State
  */
 
-const defWork = [
+const defCareer = [
+  {
+    name: 'Software Engineer, WP Engine',
+    description: 'Build reliable and performant web hosting at scale - supporting 120k customers and 5% of daily internet traffic.',
+    dates: '2018-Present'
+  },
   {
     name: 'Enterprise WordPress Support Technician, WP Engine',
-    description: 'Deliver world class customer service and triage technical problems across thousands of websites.',
-    dates: '2017-present'
+    description: 'Deliver world class customer service and triage technical problems across hundreds of thousands of websites.',
+    dates: '2017-2018'
   },
   {
     name: 'Front End Developer, worldpeace.io',
@@ -39,11 +44,11 @@ const defWork = [
  * Redux Reducer
  */
 
-const work = (state = defWork, action) => {
+const career = (state = defCareer, action) => {
   switch(action.type) {
     default:
       return state
   }
 }
 
-export default work
+export default career

@@ -6,7 +6,7 @@ const defIntercultural = [
   {
     stats: {
       prefix: null,
-      number: 23,
+      number: 24,
       postfix: null,
       description: 'Countries visited'
     }

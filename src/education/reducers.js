@@ -1,5 +1,5 @@
-import baPoliticalScience from '../../public/docs/ba-political-science.pdf'
-import baSpanishLiterature from '../../public/docs/ba-spanish-literature.pdf'
+import baPoliticalScience from '../assets/docs/ba-political-science.pdf'
+import baSpanishLiterature from '../assets/docs/ba-spanish-literature.pdf'
 
 /*
  * Redux Default State

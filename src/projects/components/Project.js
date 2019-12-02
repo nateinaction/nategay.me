@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types';
 import { Col, Thumbnail, ButtonToolbar, Button } from 'react-bootstrap'
 import Tags from '../../shared/Tags'
 

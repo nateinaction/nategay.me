@@ -1,5 +1,5 @@
-import wpMorphextImage from '../../public/images/wp-morphext.svg'
-import superCAImage from '../../public/images/super-ca-mobile.jpg'
+import wpMorphextImage from '../assets/images/wp-morphext.svg'
+import superCAImage from '../assets/images/super-ca-mobile.jpg'
 
 /*
  * Redux Default State

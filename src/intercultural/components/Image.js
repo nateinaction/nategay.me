@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col ,Thumbnail } from 'react-bootstrap'
-import interculturalImage from '../../../public/images/travel-map.jpg'
+import interculturalImage from '../../assets/images/travel-map.jpg'
 
 const EducationImage = (props) => (
   <Col xs={12}>

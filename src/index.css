@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eee;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -13,30 +13,22 @@ h1 {
   color: orange;
   font-size: 6.8rem;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
-  font-display: swap;
 }
 
 h2 {
   font-size: 4.0rem;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
-  font-display: swap;
   margin-top: 0;
 }
 
 h3 {
   font-size: 2.4rem;
-  font-family: 'Josefin Slab', serif;
-  font-display: swap;
 }
 
 h4 {
   margin: 0;
   font-size: 3rem;
   font-weight: 300;
-  font-family: 'Josefin Slab', serif;
-  font-display: swap;
 }
 
 p {

@@ -11,6 +11,9 @@ setup:
 start:
 	npm run start
 
+get_inline_css:
+	node tools/inline-css.js
+
 test:
 	CI=true npm run test
 

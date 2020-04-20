@@ -1,13 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-node_modules
+node_modules/
 
 # testing
-coverage
+coverage/
 
 # production
-build
+build/
 
 # misc
 .DS_Store
@@ -16,3 +16,7 @@ npm-debug.log
 
 # webstorm
 .idea
+
+# cloudflare workers
+dist/
+workers-site/

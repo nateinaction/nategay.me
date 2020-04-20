@@ -20,5 +20,8 @@ test:
 build:
 	npm run build
 
+preview: build
+	wrangler publish
+
 deploy: build
-	npm run deploy
+	wrangler publish -e production

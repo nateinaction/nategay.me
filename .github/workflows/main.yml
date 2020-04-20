@@ -11,7 +11,20 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@v2
-      - name: Publish
+
+      - name: Setup
+        run: make setup
+      
+      - name: Test
+        run: make test
+      
+      - name: Build
+        run: make build
+
+      - name: Deploy
         uses: cloudflare/wrangler-action@1.1.0
+        env:
+          USER: root
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'

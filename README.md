@@ -8,4 +8,4 @@ This repository contains the code that runs [https://nategay.me/](https://natega
 1. Run `make`
 
 ### Deployment
-Run `make deploy`
+Merge to `master`

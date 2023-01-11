@@ -6,8 +6,8 @@
   "devDependencies": {
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0",
-    "puppeteer": "^2.1.1",
-    "react-scripts": "^4.0.3"
+    "puppeteer": "^19.5.0",
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
